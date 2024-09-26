@@ -1,17 +1,17 @@
 #-------------------------------
 # Site Settings
 
-title: Avenco
+title: Alexia Buclet
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Avenco – Creative Portfolio Theme for Jekyll
+description: Senior UX / Product Designer & DesignOps Freelance pour projets à impact
 
 menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
+    - title: 'Experience'
       url: '/projects/'
-    - title: 'Blog'
+    - title: 'Speaker'
       url: '/blog/'
     - title: 'Pages'
       submenu:
@@ -21,23 +21,85 @@ menu__settings:
         title: 'Elements'
 
 # Call to action button
-cta__button__text: Get in touch
+cta__button__text: Contact
 
 # Add global cover image (This field adds a background to the top and bottom of the site.)
-cover__image: '/images/37.jpg'
+cover__image: '/images/378.jpg'
 
 
 #-------------------------------
 # Author Settings
 
 author:
-  name: James Clayton
-  title: Hello I’m Alexia Bubu
-  bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
-  image: '/images/01.jpg'
+  name: Alexia Buclet
+  title: Alexia Buclet
+  bio: Senior UX / Product Designer & DesignOps <br>Freelance pour projets à impact 🌍
+  image: '/images/alexia-buclet.jpg'
   avatar: '/images/avatar.jpg'
-  button__text: See my works
+  button__text: TO DEFINE
+  # button in HTML
 
+
+#-------------------------------
+# Author resume
+
+author_info:
+  resume_title: "<span class=\"text-span\">Résumé</span>"
+  profile: "<strong>Profil :</strong> Psychologue cognitiviste 🧠 avec 14 ans d'expérience, Certifiée \"écoconception de service numérique\" 🌿"
+  services: "<strong>Accompagnement :</strong> UX Design, Product Design et DesignOps."
+  objective: "<strong>Objectif :</strong> l’Harmonie 🕊 que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
+  product_type: "<strong>Type de produits :</strong> numérique principalement (ex : apps, logiciels, sites web) mais physique possible (ex : domotique, robotique, packaging)."
+  mission_duration: "<strong>Durée de missions :</strong> d'une demi-journée à plusieurs semaines/mois (en plein temps ou partiel)."
+  companies: "<strong>Entreprises :</strong> startups/entreprises innovantes et impactantes."
+  # calltoaction: "🤩 Travaillons ensemble !"
+
+
+
+#-------------------------------
+# Author pitch
+
+author_pitch:
+  statements:
+    - description: 🧠 Psychologue cognitiviste de formation, l'humain est au coeur de mon expertise.
+
+    - description: 💪 J'accompagne les startups/entreprises innovantes et impactantes qui ne peuvent pas avoir d’UX Designer à plein temps, ou qui ont besoin d’un regard extérieur. 
+
+    - description: 🌿 Certifiée "écoconception de service numérique", je prends en compte les problématiques environnementale dans mes recommandations. 
+
+    - description: "🕊 Je vise l’harmonie : que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
+
+    - description: 🤩 Travaillons ensemble ! 
+
+
+#--------------------------------
+# Section with 3 Columns Valeurs
+columns_section:
+  bigtitle: Mes <span class="text-span">valeurs</span> pour être utile et pertinente
+  column:
+   - title: "Adaptation"
+     description: "Je m’adapte à votre réalité : produit, cible, délais, ressources, etc."
+     image: "🦎"
+
+   - title: "Efficacité"
+     description: "Je vise la frugalité en trouvant des moyens et des solutions simples et efficaces."
+     image: "🦫"
+
+   - title: "Confiance"
+     description: "J'aime accompagner les mêmes équipes dans une relation positive et de confiance."
+     image: "🐝"
+
+
+#-------------------------------
+# Interventions
+
+interventions:
+  ux: UX / Product Design
+  description: L'expérience vécue par les utilisateurs est déterminante pour un produit. Mon objectif est qu'elle soit positive en rendant les interactions intuitives, efficaces, efficientes et satisfaisantes, à toutes les étapes d'utilisation du produit. 
+  - description: "<strong>😌 Pour les prévoyants :</strong> consultation en amont du développement de votre produit pour aider à vous orienter dans la bonne direction d’un point de vue utilisateur."
+  - description: "<strong>🤠 Pour les pressés :</strong> audit et recommandations sur l’expérience de votre produit."
+  - description: "<strong>🫠 Pour les submergés :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l’expérience de votre produit. Ainsi vous pourrez vous concentrer sur l’essentiel pour enfin délivrer la version tant attendue."
+  - description: "<strong>👯 Pour du renfort :</strong> UX Design complet d’une feature ou d’un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d’implémentation…)."
+  designops: DesignOps
 
 #-------------------------------
 # Projects Settings

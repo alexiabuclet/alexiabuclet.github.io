@@ -7,10 +7,14 @@
 
           <div class="author__left">
             <h1 class="author__name">{{ site.data.settings.author.title }}</h1>
-            <p class="author__bio">{{ site.data.settings.author.bio }}</p>
+            <p class="author__bio">{{ site.data.settings.author.bio | markdownify }}</p>
+            <a href="mailto:alexia.buclet.pro@gmail.com">
+              <button class="button button--middle" type="button">Travaillons ensemble <i class="ion ion-ios-paper-plane" style="margin-left: 5px;"></i></button>
+            </a>
+            <!-- Bouton avec flèche vers le bas pour voir projets
             <a class="author__btn" href="#projects">
               <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> {{ site.data.settings.author.button__text }}
-            </a>
+            </a>-->
           </div>
 
           <div class="author__right">
@@ -25,3 +29,26 @@
   </div>
 </section>
 <!-- end author -->
+
+<!-- begin resume -->
+<section class="author__resume">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <h1>{{ site.data.settings.author_info.resume_title }}</h1>
+        
+        <ul>
+          <li>{{ site.data.settings.author_info.profile }}</li>
+          <li>{{ site.data.settings.author_info.services }}</li>
+          <li>{{ site.data.settings.author_info.objective }}</li>
+          <li>{{ site.data.settings.author_info.product_type }}</li>
+          <li>{{ site.data.settings.author_info.mission_duration }}</li>
+          <li>{{ site.data.settings.author_info.companies }}</li>
+        </ul>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end resume -->

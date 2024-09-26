@@ -1,0 +1,80 @@
+.columns-section {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .columns-section .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .columns-section .column-content {
+    text-align: center;
+    flex: 1 1 100%;
+    padding: 10px;
+    // min-width: 150px; /* Largeur minimale pour les colonnes avant 250/150, puis 300/220 */
+    max-width: 300px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+
+  .columns-section h1 {
+    font-size: 36px; /* Exemple de taille */
+    text-align: center; /* Centré */
+  }
+  
+
+  .columns-section .column-content h2 {
+    margin-top: 10px;
+    font-size: 50px; /* Taille texte des titres */
+    margin-bottom: 10px; /* Espacement sous le titre */
+  }
+  
+  .columns-section .column-content h3 {
+    margin-top: 10px;
+    font-size: 20px; /* Taille texte des titres */
+    margin-bottom: 10px; /* Espacement sous le titre */
+  }
+  
+  .columns-section .column-content p {
+    margin-top: 10px;
+    font-size: 16px; /* Taille texte des descriptions */
+    color: #666;
+  }
+  
+  /* Ajustement pour les petits écrans */
+  @media (max-width: 768px) {
+    .columns-section {
+      padding: 20px 0; /* avant 30px */
+    }
+
+    .columns-section .column-content {
+        flex: 1 1 50%; /* 2 colonnes sur les écrans de taille moyenne */
+      }
+  
+    .columns-section .column-content h2 {
+        font-size: 30px; /* Réduction supplémentaire pour les petits écrans */
+    }
+
+    .columns-section .column-content h3 {
+      font-size: 18px; /* Réduction supplémentaire pour les petits écrans */
+    }
+  
+    .columns-section .column-content p {
+      font-size: 12px; /* Réduction supplémentaire pour les petits écrans */
+    }
+  
+
+  @media (min-width: 1024px) {
+    .columns-section .column-content {
+      flex: 1 1 33.3333%; /* 3 colonnes sur les grands écrans */
+    }
+    }
+}
+
+  

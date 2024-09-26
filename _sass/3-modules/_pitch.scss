@@ -1,0 +1,11 @@
+.author__pitch {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-color;
+    padding: 30px 0;
+  
+    @media only screen and (max-width: $desktop) {
+      font-size: 16px;
+    }
+  }

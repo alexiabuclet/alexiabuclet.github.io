@@ -1,0 +1,23 @@
+<section class="columns-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Ajouter un titre principal pour la section -->
+      <div class="col col-12 text-center">
+        <h1>{{ site.data.settings.columns_section.bigtitle }}</h1>
+      </div>
+
+      <!-- Boucle pour les colonnes -->
+      {% for column in site.data.settings.columns_section.column %}
+      <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+        <div class="column-content text-center">
+          <h2>{{ column.image }}</h2>
+          <h3>{{ column.title }}</h3>
+          <p>{{ column.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+  
+  

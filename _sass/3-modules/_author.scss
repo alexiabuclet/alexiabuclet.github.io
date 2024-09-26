@@ -1,17 +1,21 @@
 /* Author */
 .author {
-  padding: 96px 0;
+  padding: 50px 0;
+  // avant 96px 0
 
   @media only screen and (max-width: $desktop) {
-    padding: 80px 0;
+    padding: 40px 0; 
+    // avant 80px 0
   }
 
   @media only screen and (max-width: $tablet) {
-     padding: 40px 0 80px;
+     padding: 20px 0 40px;
+     // avant 40px 0 80px
   }
 
   @media only screen and (max-width: $mobile) {
-    padding: 30px 0 60px;
+    padding: 15px 0 30px;
+    // avant 30px 0 60px
   }
 }
 
@@ -60,12 +64,13 @@
 
   .author__bio {
     margin-bottom: 0;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 1.6;
     color: $text-color;
+    font-weight: 700;
 
     @media only screen and (max-width: $desktop) {
-      font-size: 17px;
+      font-size: 20px;
     }
   }
 
@@ -118,14 +123,27 @@
   }
 }
 
+.author__resume {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: $text-color;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 16px;
+  }
+}
+
 .author__right {
   position: relative;
 
   .author__image {
     position: relative;
     z-index: 10;
-    width: 480px;
-    height: 480px;
+    width: 360px;
+    // avant 480px
+    height: 360px;
+    // avant 480px
     margin-left: auto;
 
     &::before {
