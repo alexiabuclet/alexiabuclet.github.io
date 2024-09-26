@@ -93,13 +93,22 @@ columns_section:
 # Interventions
 
 interventions:
-  ux: UX / Product Design
-  description: L'expérience vécue par les utilisateurs est déterminante pour un produit. Mon objectif est qu'elle soit positive en rendant les interactions intuitives, efficaces, efficientes et satisfaisantes, à toutes les étapes d'utilisation du produit. 
-  - description: "<strong>😌 Pour les prévoyants :</strong> consultation en amont du développement de votre produit pour aider à vous orienter dans la bonne direction d’un point de vue utilisateur."
-  - description: "<strong>🤠 Pour les pressés :</strong> audit et recommandations sur l’expérience de votre produit."
-  - description: "<strong>🫠 Pour les submergés :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l’expérience de votre produit. Ainsi vous pourrez vous concentrer sur l’essentiel pour enfin délivrer la version tant attendue."
-  - description: "<strong>👯 Pour du renfort :</strong> UX Design complet d’une feature ou d’un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d’implémentation…)."
-  designops: DesignOps
+  title: "Domains d'intervention"
+  items:
+   subtitle: "UX / Product Design"
+   description: "L'expérience vécue par les utilisateurs est déterminante pour un produit. Mon objectif est qu'elle soit positive en rendant les interactions intuitives, efficaces, efficientes et satisfaisantes, à toutes les étapes d'utilisation du produit."
+   items:
+    - "<strong>😌 Pour les prévoyants :</strong> consultation en amont du développement de votre produit pour aider à vous orienter dans la bonne direction d’un point de vue utilisateur."
+    - "<strong>🤠 Pour les pressés :</strong> audit et recommandations sur l’expérience de votre produit."
+    - "<strong>🫠 Pour les submergés :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l’expérience de votre produit. Ainsi vous pourrez vous concentrer sur l’essentiel pour enfin délivrer la version tant attendue."
+    - "<strong>👯 Pour du renfort :</strong> UX Design complet d’une feature ou d’un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d’implémentation…)."
+  
+   subtitle: DesignOps
+   description: "Evaluation et recommandations pour fluidifier les process et harmoniser la collaboration dans les équipes Design, Tech et Produit. <br/> Sous forme de :"
+   items:
+    - "<strong>👐 Workshop :</strong> intervention rapide et macro qui peut se composer d’une rencontre avec les équipes pour comprendre les process actuels, identifier les pain points et en dégager des pistes d’amélioration."
+    - "<strong>🔎 Audit complet :</strong> intervention plus longue avec des rencontres en groupe et/ou des entretiens individuels avec les membres des équipes, évaluation des process actuels et élaboration d’un workflow personnalisé avec des itérations en collaboration avec les équipes."
+  bonsavoir: "je ne fais pas du tout de Direction Artistique ou UI Design 🎨 Je considère que ce sont des métiers qui demandent une expertise différente de la mienne (psychologie cognitive, tournée vers l’humain 🧠).<br/>L’esthétique d’un produit est tout aussi importante que son ergonomie, c’est pourquoi je pense que ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne.""
 
 #-------------------------------
 # Projects Settings
