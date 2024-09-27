@@ -1,7 +1,50 @@
 /* Header */
+body {
+  margin-top: 80px; /* Ajuste cette valeur à la hauteur initiale de ton header */
+}
+
 .header {
   height: auto;
   transition: $global-transition;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Animation fluide */
+  padding: 10px 20px;
+}
+
+.header.compact {
+  padding: 5px 10px; /* Réduit l'espacement interne */
+  background-color: rgba(255, 255, 255, 0.9); /* Légère transparence */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour différencier du contenu */
+}
+
+.header .logo__image {
+  max-height: 30px; /* Taille normale du logo */
+  transition: max-height 0.3s ease; 
+}
+
+.header.compact .logo__image {
+  max-height: 20px; /* Réduit la taille du logo quand le menu devient compact */
+}
+
+.header .nav__link {
+  font-size: 16px;
+  padding: 8px 10px; /* Espacement réduit par défaut */
+  transition: font-size 0.3s ease;
+}
+
+.header.compact .nav__link {
+  font-size: 12px; /* Réduction de la taille de la police pour un menu plus discret */
+  padding: 4px 8px; /* Moins d'espacement dans le mode compact */
+}
+
+.header.compact .nav__link.cta-button {
+  font-size: 10px; /* Réduction de la taille du bouton CTA dans le header compact */
+  padding: 6px 10px; /* Moins d'espacement */
 }
 
 .header__inner {
@@ -9,8 +52,15 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 40px $base-spacing-unit;
-  min-height: 80px;
+  /* padding: 40px $base-spacing-unit;*/
+  padding: 10px; /* ajuster les espaces selon le besoin */
+  height: auto;
+  min-height: 50px; /* Hauteur minimale du header réduit */
+  justify-content: space-between;
+
+.header.compact .header__inner {
+   min-height: 35px; /* Hauteur minimale encore plus réduite quand compact */
+ }
 
   @media only screen and (max-width: $desktop) {
     align-items: baseline;

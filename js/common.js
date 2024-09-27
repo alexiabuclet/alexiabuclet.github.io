@@ -4,6 +4,38 @@ window.addEventListener("load", function(){
   /* =======================
   // Menu
   ======================= */
+
+  /* Pour que le menu suive le scroll */
+  const header = document.querySelector('.header');
+  const compactClass = 'compact';
+  const scrollTrigger = 100; // Distance en pixels à partir de laquelle le menu devient compact
+  
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > scrollTrigger) {
+      header.classList.add(compactClass); // Ajoute la classe pour réduire la taille du menu
+    } else {
+      header.classList.remove(compactClass); // Retire la classe si on revient en haut de la page
+    }
+  });
+
+  /* pour que le contenu suive la taille du menu en haut de page */
+  window.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('.header');
+    const mainContent = document.querySelector('.main-content');
+  
+    function adjustContentPadding() {
+      const headerHeight = header.offsetHeight;
+      mainContent.style.paddingTop = `${headerHeight}px`;
+    }
+  
+    // Ajuste la marge au chargement et au redimensionnement
+    window.addEventListener('load', adjustContentPadding);
+    window.addEventListener('resize', adjustContentPadding);
+  });
+  
+
+
+  /* Menu normal fait par auteur */ 
   var body = document.querySelector("body"),
   contactBox = document.querySelector(".contact-modal"),
   contactOpenButton = document.querySelector(".cta-button"),

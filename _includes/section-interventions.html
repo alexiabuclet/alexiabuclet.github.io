@@ -1,0 +1,29 @@
+<!-- begin interventions -->
+<section class="interventions">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <!-- Titre principal -->
+        <h1>{{ site.data.settings.interventions.title | markdownify }}</h1>
+        <!-- Boucle sur les items -->
+        {% for item in site.data.settings.interventions.items %}
+        <!-- Affichage du sous-titre -->
+        <h2>{{ item.subtitle }}</h2>
+
+        <!-- Affichage de la description -->
+        <p>{{ item.description | markdownify }}</p>
+
+        <!-- Boucle sur les sous-items -->
+        {% for subitem in item.items %}
+        <p>{{ subitem | markdownify }}</p>
+        {% endfor %}
+        {% endfor %}
+
+        <!-- Appel à l'action (s'il y en a)
+        <div class="callout">{{ site.data.settings.interventions.callout }}</div>
+      -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end interventions -->
