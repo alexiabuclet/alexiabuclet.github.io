@@ -1,0 +1,40 @@
+.article__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.article__link {
+  display: block;
+  flex-grow: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+.article__link:hover .article__title {
+  color: var(--link-color);
+}
+
+.article__tags {
+  margin-top: 15px;
+}
+
+.article__tag {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 16px;
+  color: var(--heading-font-color);
+  background-color: var(--background-alt-color);
+  transition: all .15s ease;
+  text-decoration: none;
+}
+
+.article__tag:hover {
+  color: var(--white);
+  background-color: var(--brand-color);
+}

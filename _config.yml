@@ -60,3 +60,7 @@ tag_permalink_style:  /:title
 sass:
   sass_dir: _sass
   style: compressed
+
+
+# Thumbnail API Key
+thumbnail_api_key: "ab4f3bf517099532e7225cd9ed32617b46eaedbdb786"

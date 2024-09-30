@@ -3,7 +3,7 @@ layout: default
 title: Partage d'expérience
 description: <B>7</B> conférences & <B>5</B> tables rondes en France et en Europe </br> <B>8</B> interviews </br> <B>14</B> articles Medium <a href="https://medium.com/@alexia.buclet" target="_blank">@<U>AlexiaBuclet</U></a>
 ---
-<div class="container">
+ <div class="container">
   <div class="row">
     <div class="col col-8 push-2 col-t-12 push-t-0">
       <div class="page-head">
@@ -15,6 +15,39 @@ description: <B>7</B> conférences & <B>5</B> tables rondes en France et en Euro
         {% endif %}
       </div>
     </div>
+  </div>
+</div>
+
+<!-- New section for video and article cards -->
+<div class="container animate">
+  <div class="row">
+    {% for item in site.data.media_links %}
+    <div class="col col-4 col-d-6 col-t-12">
+      <div class="article">
+        <div class="article__inner">
+          {% if item.url contains "youtube.com" or item.url contains "youtu.be" %}
+            {% assign video_id = item.url | split: "v=" | last | split: "&" | first %}
+            {% assign thumbnail_url = "https://img.youtube.com/vi/" | append: video_id | append: "/0.jpg" %}
+          {% else %}
+            {% assign thumbnail_url = "https://api.thumbnail.ws/api/" | append: site.thumbnail_api_key | append: "/thumbnail/get?url=" | append: item.url | url_encode | append: "&width=300" %}
+          {% endif %}
+
+          <div class="article__head">
+            <a class="article__image" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+              <img class="lazy" data-src="{{ thumbnail_url }}" alt="{{ item.title }}">
+            </a>
+          </div>
+
+          <div class="article__content">
+            <h2 class="article__title">
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+            </h2>
+            <p class="article__excerpt">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>
 
