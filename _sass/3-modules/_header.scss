@@ -98,86 +98,22 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
-    opacity: 0;
-    overflow: auto;
+    z-index: 999;
     background: $white;
-    transition: all .25s ease;
-
-    &.is-open {
-      z-index: 999;
-      opacity: 1;
-      transition: all .25s ease;
-    }
-
-    .nav__list {
-      width: 100%;
-      max-width: 360px;
-      padding-left: 40px;
-
-      .nav__item {
-        display: block;
-        margin: 0;
-
-        &:last-child {
-          margin-right: 0;
-        }
-
-        .dropdown-menu {
-          position: relative;
-          left: 0;
-          padding: 0;
-          opacity: 1;
-          visibility: visible;
-          transform: scale(1);
-          box-shadow: none;
-
-          .nav__link {
-            margin-left: 8px;
-            margin-bottom: 16px;
-            font-size: 15px;
-
-            &::before {
-              content: "– ";
-            }
-
-            &:last-child {
-              margin-bottom: 24px;
-            }
-          }
-        }
-
-        .nav__link {
-          display: block;
-          padding: 0;
-          margin-bottom: 24px;
-          font-size: 18px;
-          font-weight: 800;
-
-          &:hover {
-            background-color: inherit;
-          }
-
-          .arrow-down {
-            display: none;
-          }
-
-          &.active-link {
-            color: $primary-color;
-
-            &::after {
-              content: none;
-            }
-          }
-
-          &.cta-button {
-            margin-left: -4px;
-            margin-bottom: 0;
-          }
-        }
-      }
-    }
+    transition: all .25s ease; visibility 0s 0.3s;
+    transform: translateX(-100%); /* Move off-screen when hidden */
+    visibility: hidden; /* Hide from screen readers and prevent interactions */
   }
+
+  .main-nav.is-open {
+    transform: translateX(0); /* Move on-screen when open */
+    visibility: visible;
+    transition: all .25s ease;
+  }
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
 
 .main-nav__box {

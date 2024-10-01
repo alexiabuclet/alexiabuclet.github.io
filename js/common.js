@@ -1,3 +1,4 @@
+
 window.addEventListener("load", function(){
   'use strict';
 
@@ -33,7 +34,57 @@ window.addEventListener("load", function(){
     window.addEventListener('resize', adjustContentPadding);
   });
   
-
+  /* Code fait par Cursor pour régler souci de menu transparent */
+  document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('.header');
+    const mainContent = document.querySelector('.main-content');
+    const navButton = document.querySelector('.nav-button');
+    const mainNav = document.querySelector('.main-nav');
+    const body = document.body;
+    const compactClass = 'compact';
+    const scrollTrigger = 100;
+  
+    // Compact header on scroll
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > scrollTrigger) {
+        header.classList.add(compactClass);
+      } else {
+        header.classList.remove(compactClass);
+      }
+    });
+  
+    // Adjust content padding
+    function adjustContentPadding() {
+      const headerHeight = header.offsetHeight;
+      mainContent.style.paddingTop = `${headerHeight}px`;
+    }
+  
+    window.addEventListener('load', adjustContentPadding);
+    window.addEventListener('resize', adjustContentPadding);
+  
+    // Mobile menu toggle
+    navButton.addEventListener('click', function() {
+      mainNav.classList.toggle('is-open');
+      body.classList.toggle('no-scroll'); // Prevent scrolling when menu is open
+    });
+  
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const isClickInside = mainNav.contains(event.target) || navButton.contains(event.target);
+      if (!isClickInside && mainNav.classList.contains('is-open')) {
+        mainNav.classList.remove('is-open');
+        body.classList.remove('no-scroll');
+      }
+    });
+  
+    // Close menu when pressing Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape' && mainNav.classList.contains('is-open')) {
+        mainNav.classList.remove('is-open');
+        body.classList.remove('no-scroll');
+      }
+    });
+  });
 
   /* Menu normal fait par auteur */ 
   var body = document.querySelector("body"),
