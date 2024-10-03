@@ -4,6 +4,7 @@ layout: default
 
 <div class="container">
   <div class="post-head">
+    <h1 class="post-title">{{ page.title }}</h1>
     {% if page.tags.size >= 1 %}
       <div class="post-tags__box">
         {% for tag in page.tags %}
@@ -11,7 +12,6 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-    <h1 class="post-title">{{ page.title }}</h1>
   </div>
 </div>
 
@@ -48,13 +48,13 @@ layout: default
       {{ content }}
     </div>
 
-    {% include post-navigation.html %}
+    <!-- {% include post-navigation.html %} -->
 
   </article>
 </div>
 <!-- end post -->
 
-{% include related-posts.html %}
+<!-- {% include related-posts.html %} -->
 
 {% if site.data.settings.disqus-identifier %}
   {% include disqus-comments.html %} 
