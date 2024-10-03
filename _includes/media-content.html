@@ -1,0 +1,42 @@
+<div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+    <a href="{{ item.targeturl | default: item.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+      
+    {% if item.image %}
+      <div class="image-wrap">
+        <div class="article__image">
+          <img class="lazy" data-src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}">
+        </div>
+      </div>
+    {% else %}
+      {% if item.targeturl contains "youtube.com" or item.targeturl contains "youtu.be" %}
+        {% assign video_id = item.targeturl | split: "v=" | last | split: "&" | first %}
+        {% assign thumbnail_url = "https://img.youtube.com/vi/" | append: video_id | append: "/0.jpg" %}
+      {% else %}
+        {% assign thumbnail_url = "https://api.thumbnail.ws/api/" | append: site.thumbnail_api_key | append:
+        "/thumbnail/get?url=" | append: item.targeturl | url_encode | append: "&width=300" %}
+      {% endif %}
+
+      <div class="article__image">
+        <img class="lazy" data-src="{{ thumbnail_url }}" alt="{{ item.title }}">
+      </div>
+    {% endif %}
+
+
+    <div class="article__content">
+      {% if item.tags.size >= 1 %}
+      <div class="article-tags__box">
+        {% for tag in item.tags %}
+        <div href="{{ site.baseurl }}/tag/{{ tag }}" class="article__tag">{{ tag }}</div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h2 class="article__title">
+        <div>{{ item.title }}</div>
+      </h2>
+      <p class="article__excerpt">{{ item.description }}</p>
+    </div>
+  </a>
+  </div>
+</div>

@@ -100,6 +100,7 @@ body {
     bottom: 0;
     z-index: -1;
     opacity: 0;
+    visibility: hidden;
     overflow: auto;
     background: $white;
     transition: all .25s ease;
@@ -107,6 +108,7 @@ body {
     &.is-open {
       z-index: 999;
       opacity: 1;
+      visibility: visible;
       transition: all .25s ease;
     }
 
