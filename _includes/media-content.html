@@ -14,7 +14,7 @@
         {% assign thumbnail_url = "https://img.youtube.com/vi/" | append: video_id | append: "/0.jpg" %}
       {% else %}
         {% assign thumbnail_url = "https://api.thumbnail.ws/api/" | append: site.thumbnail_api_key | append:
-        "/thumbnail/get?url=" | append: item.targeturl | url_encode | append: "&width=300" %}
+        "/thumbnail/get?url=" | append: item.targeturl | append: "&width=300" %}
       {% endif %}
 
       <div class="article__image">
