@@ -11,6 +11,8 @@ menu__settings:
       url: '/'
     - title: 'Experience'
       url: '/projects/'
+    - title: 'Experiences'
+      url: '/experiences/'
     - title: 'Speaker'
       url: '/blog/'
     - title: 'Pages'

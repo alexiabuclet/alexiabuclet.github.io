@@ -1,17 +1,35 @@
 ---
 layout: page
-title: About
-image: '/images/15.jpg'
+title: A propos
+image: '/images/flupa2018.jpg'
 ---
 
-Hi, my name is James Clayton. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf twee thundercats ennui.
+<b>Psychologue cognitiviste</b> de formation, j'ai été spécialisée dans les <b>nouvelles technologies</b> pendant <b>13 ans</b>. 
+<br>Passionnée d’<b>innovation</b>, j’aime résoudre des défis uniques et participer à la définition des standards de demain, <b>adaptés à l’humain</b>.
+<br>
+<br>J'aligne maintenant cette passion avec des projets qui visent un <b>impact positif</b> sur <b>notre planète</b> et <b>sa population</b> 🌍 
+<br>Je suis revenue à ce domaine qui me tenait à coeur à l’université avec mon mémoire de recherche "L'effet d'un site web et de son ergonomie sur l'intention d'adopter des comportements pro-environnementaux". Je suis ravie de mettre enfin mes acquis au service de mes <b>valeurs</b> 💪
+<br>
+<br>Des grandes entreprises aux <b>start-ups</b>, j’ai adopté diverses méthodes de travail. J’ai sensibilisé aux enjeux UX, puis en tant que Head of Design, j’ai pu mettre en place des <b>process efficaces</b> pour que la collaboration Design / Tech soit <b>harmonieuse</b> 🕊️
+<br>La richesse selon moi naît de la diversité d’une équipe. Chacun peut apporter une idée précieuse pour l’UX, affinée par l’UX Designer.
+<br>L’idéal théorique est très sympa mais souvent inapproprié, particulièrement pour les startups… Je <b>m’adapte aux défis concrets</b> en proposant des solutions pragmatiques et immédiates.
+<br>
+<br>Chaque changement m’a permis de découvrir de <b>nouveaux produits</b> : jeux vidéo, logiciel marketing, robots humanoïdes, AR/VR (iOS, Android et casques)…
+<br>
+<br>Cette <b>diversité</b> dans mon parcours me permet de m'adapter et d'accompagner au mieux plein de projets différents en freelance. 
 
-![Loneliness]({{site.baseurl}}/images/30.jpg)
-*Photo by [Grace Madeline](https://unsplash.com/@grxcemadeline) on Unsplash*
+![Loneliness]({{site.baseurl}}/images/mesure.jpg)
+*Toujours ré-inventer ses méthodes de travail.*
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim. Tousled brunch leggings hella viral twee etsy butcher messenger.
+Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment collaborer sur votre projet !
 
-<div class="gallery-box">
+<div style="text-align: center;">
+  <a href="mailto:alexia.buclet.pro@gmail.com">
+    <button class="button button--middle" type="button">Contactez-moi <i class="ion ion-ios-paper-plane" style="margin-left: 5px;"></i></button>
+  </a>
+</div>
+
+<!--<div class="gallery-box">
   <div class="gallery">
     <img src="/images/project-5.jpg" alt="Project">
     <img src="/images/project-8.jpg" alt="Project">
@@ -27,4 +45,4 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 
 Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray forage.
 
-***
+***-->
