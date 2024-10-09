@@ -2,6 +2,7 @@
 layout: page
 title: A propos
 image: '/images/flupa2018.jpg'
+image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une conférence"
 ---
 
 <b>Psychologue cognitiviste</b> de formation, j'ai été spécialisée dans les <b>nouvelles technologies</b> pendant <b>13 ans</b>. 

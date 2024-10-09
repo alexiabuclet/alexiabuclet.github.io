@@ -28,7 +28,7 @@ menu__settings:
 cta__button__text: Contact
 
 # Add global cover image (This field adds a background to the top and bottom of the site.)
-cover__image: '/images/378.jpg'
+#cover__image: '/images/378.jpg'
 
 
 #-------------------------------
@@ -39,6 +39,7 @@ author:
   title: Alexia Buclet
   bio: Senior UX / Product Designer & DesignOps <br>Freelance pour projets à impact 🌍
   image: '/images/alexia-buclet.jpg'
+  image_alt: "Photo d'Alexia Buclet"
   avatar: '/images/avatar.jpg'
   button__text: TO DEFINE
   # button in HTML
@@ -83,14 +84,17 @@ columns_section:
    - title: "Adaptation"
      description: "Je m’adapte à votre réalité : produit, cible, délais, ressources, etc."
      image: "🦎"
+     image_alt: "Icône d'un caméléon"
 
    - title: "Efficacité"
      description: "Je vise la frugalité en trouvant des moyens et des solutions simples et efficaces."
      image: "🦫"
+     image_alt: "Icône d'un castor"
 
    - title: "Confiance"
      description: "J'aime accompagner les mêmes équipes dans une relation positive et de confiance."
      image: "🐝"
+     image_alt: "Icône d'une abeille"
 
 
 #-------------------------------
