@@ -5,6 +5,7 @@
 
 - title: Head of Design (2016 - 2023)
   company: Opuscope, Paris
+  company_url: https://www.opuscope.com
   logo: /images/opuscope.jpg
   description: Dans la continuité des nouvelles technologies, je me suis lancée dans la Réalité Augmentée et Virtuelle pour définir de nouveaux modes d'interaction et résoudre des problématiques immersives jamais adressées. <br/>J'y ai construit la stratégie UX et le process de production Tech/Produit, tout en constituant et en manageant l'équipe Design. 
   projects:
@@ -20,6 +21,7 @@
 
 - title: UX Designer (2014-2016)
   company: Aldebaran Robotics, Issy-Les-Moulineaux
+  company_url: https://corporate-internal-prod.aldebaran.com/fr
   logo: /images/aldebaran.png
   description: En tant que psychologue cognitiviste, les interactions homme-machine sont passionnantes. La robotique humanoïde est son format le plus humain et fut une expérience incroyable tant au niveau de la conception que des tests utilisateurs. <br/>J'étais Product Owner des signes/feedbacks et des règles d'interaction de Pepper. En parallèle, j'étais UX Designer sur des applications pour NAO et Pepper, sur le logiciel Choregraphe et des outils internes.<br/>JA noter que j'y ai vécu un rachat par Softbank, l'occasion d'appréhender le travail entre 2 cultures très différentes.
   projects:
@@ -32,11 +34,13 @@
 
 - title: UX Designer (2012-2013)
   company: Neolane / Adobe, Bagneux
+  company_url: https://business.adobe.com/fr/products/campaign/adobe-campaign.html
   logo: /images/adobe.png
-  description: "Suite à Ubisoft, j'ai voulu radicalement changer de produit par curiosité et je suis partie travailler sur un logiciel marketing complexe : Neolane. </br>J'y ai vécu un rachat par Adobe qui a été très riche d'apprentissage que ce soit au niveau RH, gestion de produit et échange avec des designers du monde entier !"
+  description: "Suite à Ubisoft, j'ai voulu radicalement changer de produit par curiosité et je suis partie travailler sur un logiciel marketing complexe : Neolane. <br>J'y ai vécu un rachat par Adobe qui a été très riche d'apprentissage que ce soit au niveau RH, gestion de produit et échange avec des designers du monde entier !"
 
 - title: Ergonome IHM (2010-2012)
   company: Ubisoft, Montreuil
+  company_url: https://www.ubisoft.com/fr-fr/
   logo: /images/ubisoft.png
   description: J'ai travaillé dans les équipes de prod d'Ubisoft au moment de la sortie de la Kinect et de la WiiU qui offraient de nouveaux moyens d'interaction. C'est là que ma passion pour l'innovation est née. 
   projects:

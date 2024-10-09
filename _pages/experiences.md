@@ -10,7 +10,13 @@
          <h2 class="experience-title">{{ experience.title }}</h2>
          <div class="experience-company">
            <img src="{{ experience.logo | relative_url }}" alt="{{ experience.company }} logo" class="company-logo">
-           <span class="company-name">{{ experience.company }}</span>
+           <span class="company-name">
+             {% if experience.company_url %}
+               <a href="{{ experience.company_url }}" target="_blank" rel="noopener noreferrer">{{ experience.company }}</a>
+             {% else %}
+               {{ experience.company }}
+             {% endif %}
+           </span>
          </div>
          <p class="experience-description">{{ experience.description }}</p>
          

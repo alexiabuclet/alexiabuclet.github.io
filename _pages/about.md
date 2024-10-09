@@ -19,7 +19,7 @@ image: '/images/flupa2018.jpg'
 <br>Cette <b>diversité</b> dans mon parcours me permet de m'adapter et d'accompagner au mieux plein de projets différents en freelance. 
 
 ![Loneliness]({{site.baseurl}}/images/mesure.jpg)
-*Toujours ré-inventer ses méthodes de travail.*
+*Toujours ré-inventer ses méthodes de travail : mesurer un élément virtuel avec un mètre.*
 
 Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment collaborer sur votre projet !
 
