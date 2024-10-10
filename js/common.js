@@ -52,14 +52,14 @@ window.addEventListener("load", function(){
     menuClose();
   });
 
-  contactOpenButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    contactOpen();
-  });
+  // contactOpenButton.addEventListener("click", (e) => {
+  //   e.preventDefault();
+  //   contactOpen();
+  // });
 
-  contactCloseButton.addEventListener("click", (e) => {
-    contactClose();
-  });
+  // contactCloseButton.addEventListener("click", (e) => {
+  //   contactClose();
+  // });
 
   function menuOpen() {
     menuList.classList.add("is-open");

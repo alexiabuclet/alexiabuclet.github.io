@@ -25,10 +25,13 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment collaborer sur votre projet !
 
 <div style="text-align: center;">
-  <a href="mailto:alexia.buclet.pro@gmail.com">
-    <button class="button button--middle" type="button">Contactez-moi <i class="ion ion-ios-paper-plane" style="margin-left: 5px;"></i></button>
+  <a href="{{ site.data.settings.linkedin }}">
+    <button class="button button--middle" type="button">Contactez-moi</button>
   </a>
 </div>
+
+<!-- Add this line to create empty space -->
+<div style="height: 40px;"></div>
 
 <!--<div class="gallery-box">
   <div class="gallery">

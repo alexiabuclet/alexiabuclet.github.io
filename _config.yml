@@ -14,7 +14,7 @@ plugins:
   - jekyll/tagging
 
 paginate: 6
-paginate_path: "/blog/page/:num"
+paginate_path: "/speaker/page/:num"
 
 # Collections
 collections:
@@ -23,7 +23,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /speaker/:slug
   projects:
     output: true
     permalink: /project/:slug

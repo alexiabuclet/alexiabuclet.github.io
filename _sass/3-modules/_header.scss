@@ -66,8 +66,9 @@ body {
     align-items: baseline;
   }
 
+/*padding menu for mobile*/
   @media only screen and (max-width: $mobile) {
-    padding: 30px $base-spacing-unit;
+    padding: 16px $base-spacing-unit;
   }
 }
 

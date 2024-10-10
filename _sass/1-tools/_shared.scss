@@ -9,9 +9,13 @@ hr,
 table,
 fieldset, figure,
 pre {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
+h1, h2, h3, h4, h5, h6
+{
+  margin-block-start: 60px;
+}
 
 /**
  * Consistent indentation for lists.

@@ -1,15 +1,15 @@
 /* Footer */
 .footer {
   position: relative;
-  padding-top: 96px;
+  padding-top: 0px; /*avant 96px*/
   overflow: hidden;
 
   @media only screen and (max-width: $desktop) {
-    padding-top: 80px;
+    padding-top: 0px; /*avant 80px*/
   }
 
   @media only screen and (max-width: $mobile) {
-     padding-top: 60px;
+     padding-top: 0px; /*avant 60px*/
   }
 }
 

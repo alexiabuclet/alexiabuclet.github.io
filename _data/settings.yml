@@ -14,7 +14,7 @@ menu__settings:
     - title: 'Experiences'
       url: '/experiences/'
     - title: 'Speaker'
-      url: '/blog/'
+      url: '/speaker/'
     - title: 'A propos'
       url: '/about'
     #- title: 'Pages'
@@ -207,7 +207,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 # Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
 # Other icons can be found at https://ionicons.com/v4/
 social:
-- {icon: "ion-logo-linkedin", link: "https://fr.linkedin.com/in/alexiabuclet"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/alexiabuclet/"}
 - {icon: "ion-logo-instagram", link: "https://www.instagram.com/alexiabuclet/"}
 - {icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="21" height="21"><path fill="currentColor" d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>', link: "https://medium.com/@alexia.buclet"}
 - {icon: "ion-logo-twitter", link: "https://x.com/alexiabuclet"}
@@ -217,4 +217,6 @@ social:
 #- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 #- {icon: "ion-logo-codepen", link: "https://codepen.io"}
 #- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+
+linkedin: https://www.linkedin.com/in/alexiabuclet/
 
