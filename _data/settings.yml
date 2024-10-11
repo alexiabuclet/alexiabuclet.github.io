@@ -11,7 +11,7 @@ menu__settings:
       url: '/'
     #- title: 'Experience'
     #  url: '/projects/'
-    - title: 'Experiences'
+    - title: 'Expériences'
       url: '/experiences/'
     - title: 'Speaker'
       url: '/speaker/'
