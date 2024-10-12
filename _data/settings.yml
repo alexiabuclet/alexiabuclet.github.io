@@ -16,7 +16,7 @@ menu__settings:
     - title: 'Speaker'
       url: '/speaker/'
     - title: 'A propos'
-      url: '/about'
+      url: '/about/'
     #- title: 'Pages'
     #  submenu:
     #  - url: '/about'
