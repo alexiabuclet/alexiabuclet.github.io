@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A propos
+permalink: /about/
 image: '/images/flupa2018.jpg'
 image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une conférence"
 ---
