@@ -33,7 +33,7 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment <b>collaborer</b> sur votre projet !
 
 <div style="text-align: center;">
-  <a href="{{ site.data.settings.linkedin }}">
+  <a href="{{ site.data.settings.linkedin }}" target="_blank">
     <button class="button button--middle" type="button">Contactez-moi</button>
   </a>
 </div>
