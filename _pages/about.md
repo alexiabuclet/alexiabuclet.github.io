@@ -9,7 +9,7 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 <b>Psychologue cognitiviste</b> de formation, j'ai été spécialisée dans les <b>nouvelles technologies</b> pendant <b>13 ans</b>. 
 <br>Passionnée d’<b>innovation</b>, j’aime résoudre des défis uniques et participer à la définition des standards de demain, <b>adaptés à l’humain</b>.
 <br>
-<br>J'aligne maintenant cette passion avec des projets qui visent un <b>impact positif</b> sur <b>notre planète</b> et <b>sa population</b> 🌍 
+<br>J'aligne maintenant cette passion avec des projets qui visent un <b>impact positif</b> sur <b>notre planète</b> et <b>sa population</b>, <b>biodiversité</b> comprise 🌍 
 <br>Je suis revenue à ce domaine qui me tenait à coeur à l’université avec mon mémoire de recherche "L'effet d'un site web et de son ergonomie sur l'intention d'adopter des comportements pro-environnementaux". Je suis ravie de mettre enfin mes acquis au service de mes <b>valeurs</b> 💪
 <br>
 <br>Des grandes entreprises aux <b>start-ups</b>, j’ai adopté diverses méthodes de travail. J’ai sensibilisé aux enjeux UX, puis en tant que Head of Design, j’ai pu mettre en place des <b>process efficaces</b> pour que la collaboration Design / Tech soit <b>harmonieuse</b> 🕊️
@@ -23,7 +23,14 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 ![Loneliness]({{site.baseurl}}/images/mesure.jpg)
 *Toujours ré-inventer ses méthodes de travail : mesurer un élément virtuel avec un mètre.*
 
-Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment collaborer sur votre projet !
+<br>Dans ma vie personnelle, j'ai des hobbies à la fois <b>geeks</b> (escape games, jeux de plateau, jeux vidéos) et tournés vers le <b>monde</b> (voyages, plongée sous marine, balade dans la nature pour observer des animaux), sans oublier danser au rythme de musiques plus ou moins de qualité 😁 
+<br>Ces passions sont parfois incompatibles mais j'aime les considérer comme une richesse.
+
+![Loneliness]({{site.baseurl}}/images/plongee.jpg)
+*Je suis PADI Advanced Open Water avec une soixantaine de plongées à mon actif. <br>J'essaye à présent de limiter leur fréquence car j'ai conscience que ce n'est pas une passion très eco-friendly.*
+
+<br>
+Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment <b>collaborer</b> sur votre projet !
 
 <div style="text-align: center;">
   <a href="{{ site.data.settings.linkedin }}">
