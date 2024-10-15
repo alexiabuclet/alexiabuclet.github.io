@@ -20,14 +20,19 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 <br>
 <br>Cette <b>diversité</b> dans mon parcours me permet de m'adapter et d'accompagner au mieux plein de projets différents en freelance. 
 
-![Loneliness]({{site.baseurl}}/images/mesure.jpg)
+![Mesure]({{site.baseurl}}/images/mesure.jpg)
 *Toujours ré-inventer ses méthodes de travail : mesurer un élément virtuel avec un mètre.*
 
-<br>Dans ma vie personnelle, j'ai des hobbies à la fois <b>geeks</b> (escape games, jeux de plateau, jeux vidéos) et tournés vers le <b>monde</b> (voyages, plongée sous marine, balade dans la nature pour observer des animaux), sans oublier danser au rythme de musiques plus ou moins de qualité 😁 
+<br>Dans ma vie personnelle, j'ai des hobbies à la fois <b>geeks</b> (escape games, jeux de plateau, jeux vidéos) et tournés vers le <b>monde</b> (voyages, plongée sous marine, balade dans la nature pour observer des animaux, élever des abeilles sauvages), sans oublier danser au rythme de musiques plus ou moins de qualité 😁 
 <br>Ces passions sont parfois incompatibles mais j'aime les considérer comme une richesse.
 
-![Loneliness]({{site.baseurl}}/images/plongee.jpg)
+![Plongee]({{site.baseurl}}/images/plongee.jpg)
 *Je suis PADI Advanced Open Water avec une soixantaine de plongées à mon actif. <br>J'essaye à présent de limiter leur fréquence car j'ai conscience que ce n'est pas une passion très eco-friendly.*
+
+<br>
+
+![Abeilles]({{site.baseurl}}/images/abeille.jpg)
+*J'élève les abeilles sauvages dans une petite ruche sur mon balcon. <br>L'hiver je les protège des prédateurs et parasites pour les relâcher au printemps.*
 
 <br>
 Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment <b>collaborer</b> sur votre projet !
