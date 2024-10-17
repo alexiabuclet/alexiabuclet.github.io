@@ -31,7 +31,7 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à unamphithéâtre lors d'une
 
 <br>
 
-![Abeilles]({{site.baseurl}}/images/abeille.jpg)
+![Abeilles]({{site.baseurl}}/images/abeilles.jpg)
 *J'élève les abeilles sauvages dans une petite ruche sur mon balcon. <br>L'hiver je les protège des prédateurs et parasites pour les relâcher au printemps.*
 
 <br>
