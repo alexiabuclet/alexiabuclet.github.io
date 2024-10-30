@@ -56,6 +56,8 @@ author_info:
   product_type: "<strong>Type de produits :</strong> numérique principalement (ex : apps, logiciels, sites web) mais physique possible (ex : domotique, robotique, packaging)."
   mission_duration: "<strong>Durée de missions :</strong> d'une demi-journée à plusieurs semaines/mois (en plein temps ou partiel)."
   companies: "<strong>Entreprises :</strong> startups/entreprises innovantes et impactantes avec des équipes pluridisciplinaires."
+  languages: "<strong>Langues :</strong> français / anglais."
+  area: "<strong>Zone géographique :</strong> région de Paris et distanciel."
   # calltoaction: "🤩 Travaillons ensemble !"
 
 
@@ -110,16 +112,19 @@ interventions:
        - "<strong>🤠 Pour les pressé.e.s :</strong> audit et recommandations sur l’expérience de votre produit."
        - "<strong>🫠 Pour les submergé.e.s :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l’expérience de votre produit."
        - "<strong>👯 Pour du renfort :</strong> UX Design complet d’une feature ou d’un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d’implémentation…)."
-  
+     tools: "<strong>Outils :</strong> Figma, FigJam, Notion, Miro, Mixpanel, Gsuite, Microsoft Office et leurs équivalents." 
+
    - subtitle: "Product Management"
+     description: "Au même titre que le produit, l'expérience de travail doit être positive, efficace et satisfaisante pour tous les membres de l'équipe."
      items:
       - "<strong>🚀 Vision produit :</strong> définir et encadrer la vision produit, garantir l’adéquation du produit avec cette vision."
       - "<strong>🗓️ Roadmapping :</strong> intégrer les retours notamment utilisateurs, prioriser les développements, communiquer et planifier avec l’équipe."
       - "<strong>📝 Specs :</strong> spécifier des fonctionnalités ou corner cases."
       - "<strong>⚙️ Process :</strong> concevoir des process adaptés (workflow, rituels, outils…)."
+     tools: "<strong>Outils :</strong> Notion, FigJam, Miro, Mixpanel, Trello, GitLab, JIRA et leurs équivalents."
 
    - subtitle: "DesignOps"
-     description: "Evaluation et recommandations pour fluidifier les process et harmoniser la collaboration dans les équipes Design, Tech et Produit."
+     description: "Evaluation et recommandations pour fluidifier les process et harmoniser la collaboration entre les équipes Design, Tech et Produit."
      items:
       - "<strong>👐 Workshop :</strong> intervention rapide et macro avec observations, rencontres avec les équipes, identification des pain points et proposition d’améliorations."
       - "<strong>🔎 Audit complet :</strong> intervention plus longue avec des rencontres en groupe et/ou des entretiens individuels, évaluation des process actuels et élaboration d’un workflow personnalisé suivi d'itérations avec les équipes."

@@ -32,7 +32,7 @@
       description: Petit robot humanoïde principalement utilisé dans un contexte éducatif.
       image: /images/nao.png
     - title: Pepper
-      description: Petit robot humanoïde principalement utilisé dans un contexte éducatif.
+      description: Robot humanoïde de taille moyenne utilisé en magasins, hôpitaux, maisons de retraite, etc.
       image: /images/pepper.jpg
 
 - title: UX Designer (2012-2013)
@@ -41,6 +41,10 @@
   logo: /images/adobe.png
   logo_alt: "Logo de l'entreprise Adobe"
   description: "Suite à Ubisoft, j'ai voulu radicalement changer de produit par curiosité et je suis partie travailler sur un logiciel marketing complexe : Neolane. <br>J'y ai vécu un rachat par Adobe qui a été très riche d'apprentissage que ce soit au niveau RH, gestion de produit et échange avec des designers du monde entier !"
+  projects:
+    - title: Neolane / Adobe Campaign
+      description: Ergonomie du logiciel en client riche et web.
+      image: /images/adobe-campaign.png
 
 - title: Ergonome IHM (2010-2012)
   company: Ubisoft, Montreuil

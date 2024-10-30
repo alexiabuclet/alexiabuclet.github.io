@@ -17,11 +17,15 @@
         {% for subitem in item.items %}
         <p>{{ subitem | markdownify }}</p>
         {% endfor %}
+
+        <!-- Affichage des outils, moved outside the subitem loop -->
+        <p>{{ item.tools | markdownify }}</p>
         {% endfor %}
 
         <!-- Appel à l'action (s'il y en a)
         <div class="callout">{{ site.data.settings.interventions.callout }}</div>
-      -->
+        -->
+
       </div>
     </div>
   </div>
