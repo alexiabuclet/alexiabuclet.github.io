@@ -9,7 +9,7 @@
   company_url: https://www.opuscope.com
   logo: /images/opuscope.jpg
   logo_alt: "Logo de l'entreprise Opuscope"
-  description: Dans la continuité des nouvelles technologies, je me suis lancée dans la Réalité Augmentée et Virtuelle pour définir de nouveaux modes d'interaction et résoudre des problématiques immersives jamais adressées. <br/>J'y ai construit la stratégie UX et le process de production Tech/Produit, tout en constituant et en manageant l'équipe Design. 
+  description: Dans la continuité des nouvelles technologies, je me suis lancée dans la Réalité Augmentée et Virtuelle pour définir de nouveaux modes d'interaction et résoudre des problématiques immersives jamais adressées. <br/><strong>J'y ai construit la stratégie UX et le process de production Tech/Produit, tout en constituant et en manageant l'équipe Design.</strong> 
   projects:
     - title: HoloStoria
       description: L'ambition d'enrichir la médiation culturelle grâce à la réalité mixte du HoloLens.
@@ -26,7 +26,7 @@
   company_url: https://corporate-internal-prod.aldebaran.com/fr
   logo: /images/aldebaran.png
   logo_alt: "Logo de l'entreprise Aldebaran Robotics"
-  description: En tant que psychologue cognitiviste, les interactions homme-machine sont passionnantes. La robotique humanoïde est son format le plus humain et fut une expérience incroyable tant au niveau de la conception que des tests utilisateurs. <br/>J'étais Product Owner des signes/feedbacks et des règles d'interaction de Pepper. En parallèle, j'étais UX Designer sur des applications pour NAO et Pepper, sur le logiciel Choregraphe et des outils internes.<br/>A noter que j'y ai vécu un rachat par Softbank, l'occasion d'appréhender le travail entre 2 cultures très différentes.
+  description: En tant que psychologue cognitiviste, les interactions homme-machine sont passionnantes. La robotique humanoïde est son format le plus humain et fut une expérience incroyable tant au niveau de la conception que des tests utilisateurs. <br/><strong>J'étais Product Owner des signes/feedbacks et des règles d'interaction de Pepper.</strong> En parallèle, j'étais UX Designer sur des applications pour NAO et Pepper, sur le logiciel Choregraphe et des outils internes.<br/>A noter que j'y ai vécu un rachat par Softbank, l'occasion d'appréhender le travail entre 2 cultures très différentes.
   projects:
     - title: NAO
       description: Petit robot humanoïde principalement utilisé dans un contexte éducatif.
@@ -40,10 +40,10 @@
   company_url: https://business.adobe.com/fr/products/campaign/adobe-campaign.html
   logo: /images/adobe.png
   logo_alt: "Logo de l'entreprise Adobe"
-  description: "Suite à Ubisoft, j'ai voulu radicalement changer de produit par curiosité et je suis partie travailler sur un logiciel marketing complexe : Neolane. <br>J'y ai vécu un rachat par Adobe qui a été très riche d'apprentissage que ce soit au niveau RH, gestion de produit et échange avec des designers du monde entier !"
+  description: "Suite à Ubisoft, j'ai voulu radicalement changer de produit par curiosité et je suis partie travailler sur un logiciel marketing complexe : Neolane. <br><strong>J'y ai créé l'activité d'UX Design au sein de l'équipe R&D de Neolane.</strong> Ensuite, nous y avons vécu un rachat par Adobe qui a été très riche d'apprentissage que ce soit au niveau RH, gestion de produit et échange avec des designers du monde entier !"
   projects:
     - title: Neolane / Adobe Campaign
-      description: Ergonomie du logiciel en client riche et web.
+      description: Logiciel marketing en client riche et web.
       image: /images/adobe-campaign.png
 
 - title: Ergonome IHM (2010-2012)
@@ -54,7 +54,7 @@
   description: J'ai travaillé dans les équipes de prod d'Ubisoft au moment de la sortie de la Kinect et de la WiiU qui offraient de nouveaux moyens d'interaction. C'est là que ma passion pour l'innovation est née. 
   projects:
     - title: Just Dance 2, 3, 4 & co<br>(Wii, WiiU, Xbox 360 Kinect, PS3)
-      description: Mise en place de tout le process des playtests.
+      description: <strong>Mise en place de tout le process des playtests de la licence Just Dance.</strong>
       image: /images/justdance.png
     - title: "Ghost Recon: Future Soldier<br>(XBox 360 Kinect)"
       description: "Ergonomie de l'expérience cross-platform : la fonctionnalité Kinect du jeu video, l'app mobile et le site web."
