@@ -138,9 +138,9 @@ interventions:
 community:
   title: "<span class=\"text-span\">Communauté</span>"
   items:
-   - "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>Team for the Planet</a> :</strong> Team for the Planet rassemble de l’argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
-   - "<strong><a href='https://startupforkids.fr/programme-change-makher/' style='text-decoration: underline;'>Change Mak'Her</a> :</strong> programme pour les jeunes filles de 13 à 18 ans : un accompagnement d'un an pour créer un projet numérique à impact !"
-   - "<strong><a href='https://www.lareserve.tech/' style='text-decoration: underline;'>La réserve</a> :</strong> programme de mobilisation citoyenne pour créer des réponses rapides en temps de crise."
+   - "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;' target='_blank'>Team for the Planet</a> :</strong> Team for the Planet rassemble de l’argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
+   - "<strong><a href='https://startupforkids.fr/programme-change-makher/' style='text-decoration: underline;' target='_blank'>Change Mak'Her</a> :</strong> programme pour les jeunes filles de 13 à 18 ans : un accompagnement d'un an pour créer un projet numérique à impact !"
+   - "<strong><a href='https://www.lareserve.tech/' style='text-decoration: underline;' target='_blank'>La réserve</a> :</strong> programme de mobilisation citoyenne pour créer des réponses rapides en temps de crise."
    #- "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>L'Opservatoire :</strong> l’Harmonie 🕊"
    - "N'hésitez pas à me contacter pour rejoindre votre communauté !"
 
