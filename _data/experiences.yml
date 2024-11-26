@@ -1,6 +1,13 @@
 - title: UX / Product Manager & DesignOps (2024 - maintenant)
   company: Freelance
-  description: Plusieurs missions auprès de projets à impact.
+  description: "Plusieurs missions auprès de projets à impact. Parmi lesquels :"
+  projects: 
+    - title: Keenest
+      description: "UX : audit de l'expérience des sites vitrine et investisseurs."
+      image: /images/keenest.jpg
+    - title: WeWard
+      description: "DesignOps : audit des process des équipes Design et Tech."
+      image: /images/weward.png
   logo: /images/alexia-buclet.jpg
   logo_alt: "Photo d'Alexia Buclet"
 
