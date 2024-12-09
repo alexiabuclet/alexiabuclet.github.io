@@ -15,7 +15,7 @@ menu__settings:
       url: '/experiences/'
     - title: 'Speaker'
       url: '/speaker/'
-    - title: 'A propos'
+    - title: 'Qui suis-je ?'
       url: '/about/'
     #- title: 'Pages'
     #  submenu:
