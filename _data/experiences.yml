@@ -2,10 +2,10 @@
   company: Freelance
   description: "Plusieurs missions auprès de projets à impact. Parmi lesquels :"
   projects: 
-    - title: Keenest
+    - title: "<a href='https://www.keenest.co/'>Keenest</a>"
       description: "UX : audit de l'expérience des sites vitrine et investisseurs."
       image: /images/keenest.jpg
-    - title: WeWard
+    - title: "<a href='https://www.wewardapp.com/fr'>WeWard</a>"
       description: "DesignOps : audit des process des équipes Design et Tech."
       image: /images/weward.png
   logo: /images/alexia-buclet.jpg
@@ -13,7 +13,7 @@
 
 - title: Founding Designer - Head of Design (2016 - 2023)
   company: Opuscope, Paris
-  company_url: https://www.opuscope.com
+  company_url: https://opuscope.webflow.io/
   logo: /images/opuscope.jpg
   logo_alt: "Logo de l'entreprise Opuscope"
   description: Dans la continuité des nouvelles technologies, je me suis lancée dans la Réalité Augmentée et Virtuelle pour définir de nouveaux modes d'interaction et résoudre des problématiques immersives jamais adressées. <br/><strong>⭐️ J'y ai construit la stratégie UX et le process de production Tech/Produit, tout en constituant et en manageant l'équipe Design.</strong> 
@@ -30,7 +30,7 @@
 
 - title: UX Designer (2014-2016)
   company: Aldebaran Robotics, Issy-Les-Moulineaux
-  company_url: https://corporate-internal-prod.aldebaran.com/fr
+  company_url: https://aldebaran.com/
   logo: /images/aldebaran.png
   logo_alt: "Logo de l'entreprise Aldebaran Robotics"
   description: En tant que psychologue cognitiviste, les interactions homme-machine sont passionnantes. La robotique humanoïde est son format le plus humain et fut une expérience incroyable tant au niveau de la conception que des tests utilisateurs. <br/><strong>⭐️ J'étais Product Owner des signes/feedbacks et des règles d'interaction de Pepper.</strong> En parallèle, j'étais UX Designer sur des applications pour NAO et Pepper, sur le logiciel Choregraphe et des outils internes.<br/>A noter que j'y ai vécu un rachat par Softbank, l'occasion d'appréhender le travail entre 2 cultures très différentes.
