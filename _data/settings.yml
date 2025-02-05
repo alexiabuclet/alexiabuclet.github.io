@@ -4,6 +4,7 @@
 title: Alexia Buclet
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Senior UX / Product Manager & DesignOps Freelance For Good
+meta_description: "Alexia Buclet est une Senior UX Designer & Product Manager freelance qui aide les startups à impact écologique et social à concevoir des produits que les users adoptent et recommandent naturellement. Elle travaille sur la region de Paris et en remote."
 
 menu__settings:
   menu__items:
@@ -52,7 +53,7 @@ author_info:
   resume_title: "<span class=\"text-span\">Résumé</span>"
   profile: "<strong>Profil :</strong> Psychologue cognitiviste 🧠 avec 14 ans d'expérience, Certifiée \"écoconception de service numérique\" 🌿"
   services: "<strong>Accompagnement :</strong> UX Design, Product Design, Product Management et DesignOps."
-  objective: "<strong>Objectif :</strong> l’Harmonie 🕊 que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
+  objective: "<strong>Objectif :</strong> l'Harmonie 🕊 que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
   product_type: "<strong>Type de produits :</strong> numérique principalement (ex : apps, logiciels, sites web) mais physique possible (ex : domotique, robotique, packaging)."
   mission_duration: "<strong>Durée de missions :</strong> d'une demi-journée à plusieurs semaines/mois (en plein temps ou partiel)."
   companies: "<strong>Entreprises :</strong> startups/entreprises innovantes et impactantes avec des équipes pluridisciplinaires."
@@ -69,11 +70,11 @@ author_pitch:
   statements:
     - description: 🧠 Psychologue cognitiviste de formation, l'humain est au coeur de mon expertise.
 
-    - description: 💪 J'accompagne les startups/entreprises innovantes et impactantes qui ne peuvent pas avoir d’UX Designer à plein temps, ou qui ont besoin d’un regard extérieur. 
+    - description: 💪 J'accompagne les startups/entreprises innovantes et impactantes qui ne peuvent pas avoir d'UX Designer à plein temps, ou qui ont besoin d'un regard extérieur. 
 
     - description: 🌿 Certifiée "écoconception de service numérique", je prends en compte les problématiques environnementale dans mes recommandations. 
 
-    - description: "🕊 Je vise l’harmonie : que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
+    - description: "🕊 Je vise l'harmonie : que ce soit entre vos utilisateurs et votre produit, ou entre les membres de vos équipes."
 
     - description: 🤩 Travaillons ensemble ! 
 
@@ -84,7 +85,7 @@ columns_section:
   bigtitle: Mes <span class="text-span">valeurs</span> pour être utile et pertinente
   column:
    - title: "Adaptation"
-     description: "Je m’adapte à votre réalité : produit, cible, délais, ressources, etc."
+     description: "Je m'adapte à votre réalité : produit, cible, délais, ressources, etc."
      image: "🦎"
      image_alt: "Icône d'un caméléon"
 
@@ -109,16 +110,16 @@ interventions:
      description: "L'expérience doit être positive avec des interactions intuitives, efficaces, efficientes et satisfaisantes, à toutes les étapes du parcours produit."
      items:
        - "<strong>😌 Pour les prévoyant.e.s :</strong> en amont du développement pour adopter la bonne stratégie pour les utilisateurs.rices."
-       - "<strong>🤠 Pour les pressé.e.s :</strong> audit et recommandations sur l’expérience de votre produit."
-       - "<strong>🫠 Pour les submergé.e.s :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l’expérience de votre produit."
-       - "<strong>👯 Pour du renfort :</strong> UX Design complet d’une feature ou d’un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d’implémentation…)."
+       - "<strong>🤠 Pour les pressé.e.s :</strong> audit et recommandations sur l'expérience de votre produit."
+       - "<strong>🫠 Pour les submergé.e.s :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l'expérience de votre produit."
+       - "<strong>👯 Pour du renfort :</strong> UX Design complet d'une feature ou d'un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d'implémentation…)."
      tools: "<strong>Outils :</strong> Figma, FigJam, Notion, Miro, Mixpanel, Gsuite, Microsoft Office et leurs équivalents." 
 
    - subtitle: "Product Management"
      description: "Au même titre que le produit, l'expérience de travail doit être positive, efficace et satisfaisante pour tous les membres de l'équipe."
      items:
-      - "<strong>🚀 Vision produit :</strong> définir et encadrer la vision produit, garantir l’adéquation du produit avec cette vision."
-      - "<strong>🗓️ Roadmapping :</strong> intégrer les retours notamment utilisateurs, prioriser les développements, communiquer et planifier avec l’équipe."
+      - "<strong>🚀 Vision produit :</strong> définir et encadrer la vision produit, garantir l'adéquation du produit avec cette vision."
+      - "<strong>🗓️ Roadmapping :</strong> intégrer les retours notamment utilisateurs, prioriser les développements, communiquer et planifier avec l'équipe."
       - "<strong>📝 Specs :</strong> spécifier des fonctionnalités ou corner cases."
       - "<strong>⚙️ Process :</strong> concevoir des process adaptés (workflow, rituels, outils…)."
      tools: "<strong>Outils :</strong> Notion, FigJam, Miro, Mixpanel, Trello, GitLab, JIRA et leurs équivalents."
@@ -126,11 +127,11 @@ interventions:
    - subtitle: "DesignOps"
      description: "Evaluation et recommandations pour fluidifier les process et harmoniser la collaboration entre les équipes Design, Tech et Produit."
      items:
-      - "<strong>👐 Workshop :</strong> intervention rapide et macro avec observations, rencontres avec les équipes, identification des pain points et proposition d’améliorations."
-      - "<strong>🔎 Audit complet :</strong> intervention plus longue avec des rencontres en groupe et/ou des entretiens individuels, évaluation des process actuels et élaboration d’un workflow personnalisé suivi d'itérations avec les équipes."
+      - "<strong>👐 Workshop :</strong> intervention rapide et macro avec observations, rencontres avec les équipes, identification des pain points et proposition d'améliorations."
+      - "<strong>🔎 Audit complet :</strong> intervention plus longue avec des rencontres en groupe et/ou des entretiens individuels, évaluation des process actuels et élaboration d'un workflow personnalisé suivi d'itérations avec les équipes."
    
    - subtitle: "Bon à savoir"
-     description: "Je ne fais pas de Direction Artistique ou UI Design 🎨 <br/>L’esthétique d’un produit est tout aussi importante que son ergonomie. Ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne."
+     description: "Je ne fais pas de Direction Artistique ou UI Design 🎨 <br/>L'esthétique d'un produit est tout aussi importante que son ergonomie. Ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne."
 
 #-------------------------------
 # Community section
@@ -138,10 +139,10 @@ interventions:
 community:
   title: "<span class=\"text-span\">Communauté</span>"
   items:
-   - "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;' target='_blank'>Team for the Planet</a> :</strong> Team for the Planet rassemble de l’argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
+   - "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;' target='_blank'>Team for the Planet</a> :</strong> Team for the Planet rassemble de l'argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
    - "<strong><a href='https://startupforkids.fr/programme-change-makher/' style='text-decoration: underline;' target='_blank'>Change Mak'Her</a> :</strong> programme pour les jeunes filles de 13 à 18 ans : un accompagnement d'un an pour créer un projet numérique à impact !"
    - "<strong><a href='https://www.lareserve.tech/' style='text-decoration: underline;' target='_blank'>La réserve</a> :</strong> programme de mobilisation citoyenne pour créer des réponses rapides en temps de crise."
-   #- "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>L'Opservatoire :</strong> l’Harmonie 🕊"
+   #- "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>L'Opservatoire :</strong> l'Harmonie 🕊"
    - "N'hésitez pas à me contacter pour rejoindre votre communauté !"
 
 #-------------------------------
