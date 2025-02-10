@@ -21,9 +21,9 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts:
-    output: true
-    permalink: /speaker/:slug
+  #posts:
+    #output: true
+    #permalink: /speaker/:slug
   #projects:
     #output: true
     #permalink: /project/:slug
