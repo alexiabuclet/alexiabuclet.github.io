@@ -24,9 +24,9 @@ collections:
   posts:
     output: true
     permalink: /speaker/:slug
-  projects:
-    output: true
-    permalink: /project/:slug
+  #projects:
+    #output: true
+    #permalink: /project/:slug
 
 # Pages Path
 defaults:
