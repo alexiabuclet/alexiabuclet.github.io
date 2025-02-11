@@ -1,0 +1,21 @@
+/* print.css */
+@media print {
+    body {
+        font-size: 12pt; /* Set font size for print */
+        color: black; /* Ensure text is black */
+    }
+
+    .no-print {
+        display: none; /* Hide elements with this class */
+    }
+
+    /* Additional print styles */
+    h1, h2, h3 {
+        color: black; /* Ensure headings are black */
+    }
+
+    /* Adjust layout for print */
+    .container {
+        width: 100%; /* Full width for print */
+    }
+}
