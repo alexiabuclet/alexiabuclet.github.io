@@ -5,9 +5,11 @@
     - title: "<a href='https://www.keenest.co/'>Keenest</a>"
       description: "UX : audit de l'expérience des sites vitrine et investisseurs."
       image: /images/keenest.jpg
+      image_alt: Copie d'écran du site de Keenest
     - title: "<a href='https://www.wewardapp.com/fr'>WeWard</a>"
       description: "DesignOps : audit des process des équipes Design et Tech."
       image: /images/weward.png
+      image_alt: Copies d'écran de WeWard
   logo: /images/alexia-buclet.jpg
   logo_alt: "Photo d'Alexia Buclet"
 
@@ -21,12 +23,15 @@
     - title: HoloStoria
       description: L'ambition d'enrichir la médiation culturelle grâce à la réalité mixte du HoloLens.
       image: /images/holostoria.png
+      image_alt: Copie d'écran d'HoloStoria
     - title: Minsar Studio
       description: Offrir la possibilité à n'importe qui de créer des expériences immersives en no-code, directement dans l'appareil de visualisation (HoloLens, Magic Leap, Quest, iOS, Android...).
       image: /images/minsar.jpg
+      image_alt: Copie d'écran de Minsar
     - title: Wanderland / Mappn
       description: Applications mobiles de contenu géospatialisé pour donner vie à ses idées, souvenirs, oeuvres d'art.
       image: /images/mappn.png
+      image_alt: Copie d'écran de Mappn
 
 - title: UX Designer (2014-2016)
   company: Aldebaran Robotics, Issy-Les-Moulineaux
@@ -38,9 +43,11 @@
     - title: NAO
       description: Petit robot humanoïde principalement utilisé dans un contexte éducatif.
       image: /images/nao.png
+      image_alt: Photo de plusieurs NAOs
     - title: Pepper
       description: Robot humanoïde de taille moyenne utilisé en magasins, hôpitaux, maisons de retraite, etc.
       image: /images/pepper.jpg
+      image_alt: Photo d'Alexia et Pepper qui se regardent
 
 - title: UX Designer (2012-2013)
   company: Neolane / Adobe, Bagneux
@@ -52,6 +59,7 @@
     - title: Neolane / Adobe Campaign
       description: Logiciel marketing en client riche et web.
       image: /images/adobe-campaign.png
+      image_alt: Copie d'écran de Neolane
 
 - title: Ergonome IHM (2010-2012)
   company: Ubisoft, Montreuil
@@ -63,9 +71,12 @@
     - title: Just Dance 2, 3, 4 & co<br>(Wii, WiiU, Xbox 360 Kinect, PS3)
       description: <strong>⭐️ Mise en place de tout le process des playtests de la licence Just Dance.</strong>
       image: /images/justdance.png
+      image_alt: Copine d'écran de Just Dance 3
     - title: "Ghost Recon: Future Soldier<br>(XBox 360 Kinect)"
       description: "Ergonomie de l'expérience cross-platform : la fonctionnalité Kinect du jeu video, l'app mobile et le site web."
       image: /images/grfskinect.jpg
+      image_alt: Photo d'un joueur utilisant la fonctionnalité Kinect du jeu GRFS
     - title: Killer Freaks - ex-ZombiU<br>(WiiU)
       description: Ergonomie du gameplay asymétrique de la WiiU.
       image: /images/killerfreaks.jpeg
+      image_alt: Image de teaser de Killerfreaks
