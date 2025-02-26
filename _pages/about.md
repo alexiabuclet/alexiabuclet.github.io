@@ -35,7 +35,10 @@ image_alt: "Photo d'Alexia Buclet vue de dos face à un amphithéâtre lors d'un
 *J'élève les abeilles sauvages dans une petite ruche sur mon balcon. <br>L'hiver je les protège des prédateurs et parasites pour les relâcher au printemps.*
 
 <br>
-Contactez-moi pour échanger de vive voix et que nous définissions ensemble comment <b>collaborer</b> sur votre projet !
+A noter que j'ai eu l'idée folle de <b>coder ce site moi-même</b> avec l'aide d'une amie, d'un template et de Cursor (une IA spécialisée en code). J'ai appris les bases du code et limité l'utilisation de l'IA aux moments où j'étais vraiment bloquée. Ca n'a pas été facile mais je me suis accrochée pour obtenir le rendu que je voulais vraiment. Au final, c'était une super expérience et je suis fière du résultat !
+
+<br>
+<b>Contactez-moi</b> pour échanger de vive voix et que nous définissions ensemble comment <b>collaborer</b> sur votre projet !
 
 <div style="text-align: center;">
   <a href="{{ site.data.settings.linkedin }}" target="_blank">
