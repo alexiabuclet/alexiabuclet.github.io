@@ -1,13 +1,25 @@
 - title: UX / Product Manager & DesignOps (2024 - maintenant)
   company: Freelance
-  description: "Plusieurs missions auprès de projets à impact. Parmi lesquels :"
+  description: "Plusieurs missions auprès de projets à impact environnemental et social. Parmi lesquels :"
   projects: 
+    - title: "<a href='https://www.peasup.org/'>Peas'Up</a>"
+      description: "UX : Audit exhaustif de l'expérience l'app."
+      client: "Peas'Up est une app mobile qui permet d'impulser aux membres d'une entreprise des démarches collectives et individuelles sur les enjeux environnementaux, de manière ludique et positive !"
+      image: /images/peasup.avif
+      image_alt: Téléphone avec l'app Peas'Up
+    - title: "Le Temps d'Asheer" #<a href='https://www.peasup.org/'>Le Temps d'Asheer</a>
+      description: "UX : Conception de la version en ligne de l'escape game avec de nouvelles mécaniques immersives."
+      client: "Le Temps d'Asheer est un escape game pour sensibiliser aux problématiques d'harcèlement au travail des personnes LGBT+. Le jeu existe déjà sous format de cartes. "
+      image: /images/enconstruction.png
+      image_alt: Téléphone avec l'app Peas'Up
     - title: "<a href='https://www.keenest.co/'>Keenest</a>"
       description: "UX : audit de l'expérience des sites vitrine et investisseurs."
+      client: "Keenest est une plateforme qui permet aux particuliers d'investir facilement dans des projets à impact écologique."
       image: /images/keenest.jpg
       image_alt: Copie d'écran du site de Keenest
     - title: "<a href='https://www.wewardapp.com/fr'>WeWard</a>"
       description: "DesignOps : audit des process des équipes Design et Tech."
+      client: "WeWard est une app mobile qui encourage ses users à marcher pour débloquer des récompenses."
       image: /images/weward.png
       image_alt: Copies d'écran de WeWard
   logo: /images/alexia-buclet.jpg

@@ -67,7 +67,7 @@
   .project-image {
     width: 100%;
     height: 200px; //avant 150px
-    object-fit: cover;
+    object-fit: contain; //avant cover (zoom sur l'image), contain l'affiche en entier
     border-radius: 4px;
     margin-bottom: 10px;
   }
@@ -76,4 +76,13 @@
     font-size: 14px;
     line-height: 1.4;
     width: 100%; // Ensure the description takes full width
+    margin-bottom: 10px;
+  }
+
+  .project-client {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.4;
+    width: 100%; // Ensure the description takes full width
+    margin-bottom: 10px;
   }

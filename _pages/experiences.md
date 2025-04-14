@@ -27,6 +27,7 @@
                  <h4 class="project-title">{{ project.title }}</h4>
                  <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
                  <p class="project-description">{{ project.description }}</p>
+                 <p class="project-client">{{ project.client }}</p>
                </div>
              {% endfor %}
            </div>

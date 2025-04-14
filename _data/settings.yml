@@ -4,7 +4,7 @@
 title: Alexia Buclet
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Senior UX / Product Manager & DesignOps Freelance For Good
-meta_description: "Alexia Buclet est une Senior UX Designer & Product Manager freelance qui aide les startups à impact écologique et social à concevoir des produits que les users adoptent et recommandent naturellement. Elle travaille sur la region de Paris et en remote."
+meta_description: "Alexia Buclet est une Senior UX Designer & Product Manager freelance qui aide les startups à impact écologique et social à concevoir des produits que les users adoptent durablement et recommandent naturellement. Elle travaille sur la region de Paris et en remote."
 
 menu__settings:
   menu__items:
@@ -38,7 +38,7 @@ cta__button__text: Contact
 author:
   name: Alexia Buclet
   title: Alexia Buclet
-  bio: Senior UX Designer / Product Manager <br>Freelance engagée pour innovations à impact 🌍
+  bio: Senior UX Designer / Product Manager <br>Freelance For Good pour innovations à impact 🌍
   image: '/images/alexia-buclet.jpg'
   image_alt: "Photo d'Alexia Buclet"
   avatar: '/images/avatar.jpg'
@@ -52,7 +52,7 @@ author:
 author_info:
   resume_title: "<span class=\"text-span\">Résumé</span>"
   accueil: "👋 Tu donnes tout pour créer une solution innovante et vertueuse, mais les utilisateur.ices ne sont pas au rendez-vous, les priorités s'accumulent et/ou les équipes sont perdues. Tu es au bon endroit !"
-  objective: "<strong>Objectif :</strong> concevoir des produits que les gens adoptent naturellement et recommandent avec enthousiasme 🤩"
+  objective: "<strong>Objectif :</strong> concevoir des produits que les gens adoptent durablement et recommandent avec enthousiasme 🤩"
   profile: "<strong>Profil :</strong> Psychologue cognitiviste 🧠 avec 14 ans d'expérience, Certifiée \"écoconception de service numérique\" 🌿"
   services: "<strong>Accompagnement :</strong> UX Design, Product Design, Product Management et DesignOps."
   product_type: "<strong>Type de produits :</strong> numérique principalement (ex : apps, logiciels, sites web) mais physique possible (ex : domotique, robotique, packaging)."
@@ -62,6 +62,12 @@ author_info:
   area: "<strong>Zone géographique :</strong> région de Paris et distanciel."
   # calltoaction: "🤩 Travaillons ensemble !"
 
+
+#-------------------------------
+# Author pitch
+
+#author_quiz:
+  #description: "Si toi aussi tu aimes jouer, tu peux en apprendre plus grâce à ce <strong><a href='https://team-planet.com/fr' style='text-decoration: underline;' target='_blank'>quiz</a> </strong> et tenter de gagner une réduc 😁"
 
 
 #-------------------------------
