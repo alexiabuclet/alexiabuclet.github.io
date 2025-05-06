@@ -52,7 +52,7 @@ author:
 author_info:
   resume_title: "<span class=\"text-span\">Résumé</span>"
   accueil: "👋 Tu donnes tout pour créer une solution innovante et vertueuse, mais les utilisateur.ices ne sont pas au rendez-vous, les priorités s'accumulent et/ou les équipes sont perdues. Tu es au bon endroit !"
-  objective: "<strong>Objectif :</strong> concevoir des produits que les gens adoptent durablement et recommandent avec enthousiasme 🤩"
+  objective: "<strong>Objectif :</strong> concevoir des produits / services que les gens adoptent durablement et recommandent avec enthousiasme 🤩"
   profile: "<strong>Profil :</strong> Psychologue cognitiviste 🧠 avec 14 ans d'expérience, Certifiée \"écoconception de service numérique\" 🌿"
   services: "<strong>Accompagnement :</strong> UX Design, Product Management et DesignOps."
   product_type: "<strong>Type de produits / services :</strong> numérique (ex : apps, logiciels, plate-forme) et physique (ex : domotique, robotique) | B2B / B2C | innovation et gamification."
@@ -61,6 +61,9 @@ author_info:
   languages: "<strong>Langues :</strong> français / anglais."
   area: "<strong>Zone géographique :</strong> région de Paris et distanciel."
   # calltoaction: "🤩 Travaillons ensemble !"
+
+#-------------------------------
+# Author clients
 
 
 #-------------------------------
