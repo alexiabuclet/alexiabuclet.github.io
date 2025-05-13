@@ -34,6 +34,7 @@
   .company-logo {
     height: min(10vw, 20px) !important;
     //height: 16px !important;
+    max-width: 90px; /* ✅ limite la largeur */
     padding: 0;
     //gap: 0rem !important;
     flex: 1 1 60px; /* plus petit minimum sur mobile */
