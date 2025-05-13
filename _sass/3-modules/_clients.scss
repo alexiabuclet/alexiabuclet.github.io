@@ -1,0 +1,75 @@
+.logo-section {
+  max-width: 900px;        /* même largeur que ton contenu texte */
+  margin: 0 auto;          /* centré horizontalement */
+  margin-bottom: 1rem;
+  padding: 2rem 4rem;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.company-logo {
+  height: min(3vw, 35px) !important;   /* Hauteur responsive */
+  width: auto !important;             /* garde le ratio */
+  object-fit: contain;
+  display: block;
+  //max-width: 100%;
+  max-width: 120px; /* ✅ limite la largeur */
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex: 0 1 auto;
+  transition: transform 0.3s ease; // ✨ animation douce
+  
+  &:hover {
+      transform: scale(1.1); // 🧠 zoom au survol
+  }
+}
+
+@media (max-width: 600px) {
+  .company-logo {
+    height: min(10vw, 20px) !important;
+    //height: 16px !important;
+    padding: 0;
+    //gap: 0rem !important;
+    flex: 1 1 60px; /* plus petit minimum sur mobile */
+  }
+
+  .logo-section {
+    padding: 1rem 1rem; /* réduit sur mobile */
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .logo-row {
+    gap: 0.8rem; /* réduit l’espace horizontal et vertical entre les logos */
+  }
+
+  //.logo-container {
+    //gap: 0rem;
+    //max-width: 90%;
+  //}
+}
+
+@media (min-width: 900px) {
+  .logo-row {
+    justify-content: space-evenly; /* meilleure répartition sur grand écran */
+  }
+  
+  //.company-logo {
+   //flex: 1 1 100px; /* permet aux logos de s'étendre */
+  //}
+}
+
+@media (min-width: 1200px) {
+  .company-logo {
+    height: 80px;
+  }
+}
+
+
+
