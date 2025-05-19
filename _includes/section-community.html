@@ -8,7 +8,15 @@
           
           <!-- Boucle sur les items -->
           {% for item in site.data.settings.community.items %}
-            <p>{{ item | markdownify }}</p> <!-- Display each item -->
+            <a href="{{ item.link }}" target="_blank" class="community-item">
+              {% if item.logo %}
+                <img src="{{ item.logo }}" alt="{{ item.name }}" class="community-logo">
+              {% endif %}
+              <div class="community-content">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+              </div>
+            </a>
           {% endfor %}
   
         </div>

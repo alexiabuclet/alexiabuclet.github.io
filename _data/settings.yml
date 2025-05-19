@@ -149,9 +149,25 @@ interventions:
 community:
   title: "<span class=\"text-span\">Communautés</span>"
   items:
-   - "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;' target='_blank'>Team for the Planet</a> :</strong> Team for the Planet rassemble de l'argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
-   - "<strong><a href='https://climate.house/' style='text-decoration: underline;' target='_blank'>Climate House</a> :</strong> La Climate House est une maison qui rassemble des entrepreneurs, entreprises, investisseurs, associations, activistes, chercheurs, scientifiques, étudiants... Ces architectes de demain, quels que soient les freins auxquels ils sont confrontés — financement, visibilité, technologie ou réglementation — pourront, s'inspirer les uns les autres, et ensemble maximiser et accélérer leur impact."
-   - "<strong><a href='https://socialdeclik.com/' style='text-decoration: underline;' target='_blank'>Freelance For Good</a> :</strong> Social Declik est un collectif d'indépendants qui proposent leurs compétences au service du bien commun pour aider des entreprises engagées à résoudre des problématiques environnementales ou sociétales."
+    - name: "Team for the Planet"
+      description: "Team for the Planet rassemble de l'argent pour détecter et déployer 100 innovations mondiales contre les gaz à effet de serre."
+      link: "https://team-planet.com/fr"
+      logo: "/images/communities/team-planet.png"
+    
+    - name: "Climate House"
+      description: "La Climate House est une maison qui rassemble des entrepreneurs, entreprises, investisseurs, associations, activistes, chercheurs, scientifiques, étudiants... Ces architectes de demain, quels que soient les freins auxquels ils sont confrontés — financement, visibilité, technologie ou réglementation — pourront, s'inspirer les uns les autres, et ensemble maximiser et accélérer leur impact."
+      link: "https://climate.house/"
+      logo: "/images/communities/climate-house.png"
+    
+    - name: "Freelance For Good"
+      description: "Social Declik est un collectif d'indépendants qui proposent leurs compétences au service du bien commun pour aider des entreprises engagées à résoudre des problématiques environnementales ou sociétales."
+      link: "https://socialdeclik.com/"
+      logo: "/images/communities/social-declik.png"
+    
+    - name: "The Impact Circle"
+      description: "The Impact Circle est une communauté qui facilite le partage de connaissances, élargit les réseaux et augmente notre impact collectif au sein de l'écosystème entrepreneurial à impact."
+      link: "https://theimpactcircle.fr/"
+      logo: "/images/communities/impact-circle.avif"
    #- "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>L'Opservatoire :</strong> l'Harmonie 🕊"
 
 #-------------------------------
@@ -161,7 +177,7 @@ mecenat:
   title: "<span class=\"text-span\">Mécenat de compétences</span>"
   items:
    - "<strong><a href='https://initiatives.theshifters.org/initiative/I20240714191246/' style='text-decoration: underline;' target='_blank'>Les Shifters</a> :</strong> Dans le cadre de la Grande Consultation du Sport, je suis volontaire pour conduire des entretiens qualitatifs avec des sportifs amateurs et rapporter leurs résultats."
-   - "<strong><a href='https://www.innoverpourlatransitionecologique.fr/fr/challenges/open-booster' style='text-decoration: underline;' target='_blank'>Agence Française de Développement</a> :</strong> Dans le cadre du Challenge de l'Open Booster de l’Initiative Adapt’Action, j'ai été volontaire UX Designer et cheffe de projet pour Notre Logi'eau."
+   - "<strong><a href='https://www.innoverpourlatransitionecologique.fr/fr/challenges/open-booster' style='text-decoration: underline;' target='_blank'>Agence Française de Développement</a> :</strong> Dans le cadre du Challenge de l'Open Booster de l'Initiative Adapt'Action, j'ai été volontaire UX Designer et cheffe de projet pour Notre Logi'eau."
    - "<strong><a href='https://startupforkids.fr/programme-change-makher/' style='text-decoration: underline;' target='_blank'>Change Mak'Her</a> :</strong> mentor pour ce programme pour les jeunes filles de 13 à 18 ans : un accompagnement d'un an pour créer un projet numérique à impact !"
    #- "<strong><a href='https://team-planet.com/fr' style='text-decoration: underline;'>L'Opservatoire :</strong> l'Harmonie 🕊"
    - "N'hésitez pas à me contacter pour vous aider !"
