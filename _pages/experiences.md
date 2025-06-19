@@ -23,12 +23,21 @@
          {% if experience.projects %}
            <div class="projects-container">
              {% for project in experience.projects %}
-               <div class="project-item">
-                 <h4 class="project-title">{{ project.title }}</h4>
-                 <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
-                 <p class="project-description">{{ project.description }}</p>
-                 <p class="project-client">{{ project.client }}</p>
-               </div>
+               {% if project.url %}
+                 <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer" class="project-item">
+                   <h4 class="project-title">{{ project.title }}</h4>
+                   <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+                   <p class="project-description">{{ project.description }}</p>
+                   <p class="project-client">{{ project.client }}</p>
+                 </a>
+               {% else %}
+                 <div class="project-item">
+                   <h4 class="project-title">{{ project.title }}</h4>
+                   <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+                   <p class="project-description">{{ project.description }}</p>
+                   <p class="project-client">{{ project.client }}</p>
+                 </div>
+               {% endif %}
              {% endfor %}
            </div>
          {% endif %}
