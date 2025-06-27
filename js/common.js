@@ -214,4 +214,21 @@ window.addEventListener("load", function(){
     }
   });
 
+
+  /* =========================
+  // Interventions Expand/Collapse
+  ========================= */
+  document.querySelectorAll('.intervention-toggle').forEach(function(toggle) {
+    toggle.addEventListener('click', function() {
+      var content = this.parentElement.querySelector('.intervention-content');
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      if (expanded) {
+        content.setAttribute('hidden', '');
+      } else {
+        content.removeAttribute('hidden');
+      }
+    });
+  });
+
 });
