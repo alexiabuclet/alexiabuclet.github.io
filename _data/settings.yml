@@ -49,20 +49,34 @@ author:
 # Témoignages
 
 testimonials:
-  #title: "Ils m'ont fait confiance"
-  items:
+  testimonial__title: "Ils m'ont fait confiance"
+  testimonials_items:
     - name: 
       #designation: 
-      content: "Alexia a su comprendre nos enjeux et proposer des solutions concrètes et efficaces. Une vraie partenaire de confiance !"
+      content: "Le rapport gain / prix vaut vraiment le coup niveau volume et impact pour l'app !"
       #image: 
     - name: 
       #designation: 
-      content: "Collaboration fluide, expertise pointue et toujours à l'écoute. Je recommande vivement !"
+      content: "Son expertise et sa capacité à piloter des projets complexes ont été impressionnants. C'est un réel plaisir de travailler en sa présence, elle apporte beaucoup d'énergie où qu'elle aille."
       #image: 
     - name: 
       #designation: 
-      content: "Alexia a apporté une vraie valeur ajoutée à notre projet, tant sur l'expérience utilisateur que sur la gestion produit."
+      content: "Le taff effectué pendant la mission a été top, bluffant et hyper utile !"
       #image: 
+    - name: 
+      #designation: 
+      content: "Alexia a systématiquement su adapter sa méthode et ses équipes dans un univers technologique et stratégie évoluant très rapidement, tout en conservant un niveau d'exigence élevé."
+      #image: 
+    - name: 
+      #designation: 
+      content: "Alexia est une personne à l'écoute, organisée et très dynamique, toujours avec une énergie positive et une bonne humeur communicative."
+      #image:
+    - name: 
+      #designation: 
+      content: "Son professionnalisme et son engagement font d'elle une collaboratrice précieuse avec qui il est un vrai plaisir de travailler."
+      #image:
+
+
 
 #-------------------------------
 # Author resume

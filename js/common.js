@@ -150,28 +150,33 @@ window.addEventListener("load", function(){
   /* ============================
   // Testimonials Slider
   ============================ */
-  if (document.querySelector(".my-slider")) {
+  if (document.querySelector('.my-slider')) {
     var slider = tns({
-      container: ".my-slider",
-      items: 3,
+      container: '.my-slider',
+      items: 1,
       slideBy: 1,
       gutter: 32,
-      nav: false,
+      nav: true,
+      controls: false,
       mouseDrag: true,
       autoplay: false,
-      controlsContainer: "#customize-controls",
       responsive: {
-        1024: {
-          items: 3,
-        },
-        768: {
-          items: 2,
-        },
-        0: {
-          items: 1,
-        }
+        0: { items: 1 },
+        768: { items: 2 },
+        1024: { items: 3 }
       }
     });
+    var sliderEl = document.querySelector('.my-slider');
+    var colEl = sliderEl.closest('.col.col-12');
+    function moveDots() {
+      var nav = colEl.querySelector('.tns-nav');
+      if (sliderEl && nav && nav.previousSibling !== sliderEl) {
+        colEl.insertBefore(nav, sliderEl.nextSibling);
+      }
+    }
+    // Move dots after DOM settles
+    setTimeout(moveDots, 100);
+    setTimeout(moveDots, 400);
   }
 
 
