@@ -17,7 +17,8 @@
   
           <div class="row">
             {% if site.posts.size > 0 %}
-              {% for post in site.posts offset:0 limit:3 %}
+              {% assign counter = 0 %}
+              {% for post in site.posts limit:3 %}
                 <div class="col col-4 col-d-6 col-t-12">
                   <a href="{{ post.targeturl }}" class="article-link" target="_blank" rel="noopener noreferrer">
                     <div class="article">
@@ -46,6 +47,9 @@
                 </div>
               {% endfor %}
             {% endif %}
+          </div>
+          <div style="text-align:center; margin-top:1.2rem;">
+            <a href="/speaker/" class="button button--small button--discreet">Tout voir</a>
           </div>
 
         </div>

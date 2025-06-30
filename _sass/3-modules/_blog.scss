@@ -1,0 +1,14 @@
+.button--discreet {
+  background: #f5f5f5 !important;
+  color: #888 !important;
+  font-size: 0.95rem !important;
+  padding: 0.4em 1.1em !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 400 !important;
+  transition: background 0.2s, color 0.2s;
+}
+.button--discreet:hover, .button--discreet:focus {
+  background: #e0e0e0 !important;
+  color: #444 !important;
+} 
