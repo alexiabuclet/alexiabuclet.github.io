@@ -154,24 +154,37 @@ window.addEventListener("load", function(){
     var slider = tns({
       container: '.my-slider',
       items: 1,
-      slideBy: 1,
+      slideBy: 'page',
       gutter: 32,
       nav: true,
-      controls: false,
+      controls: true,
+      prevButton: '.testimonial-nav-prev',
+      nextButton: '.testimonial-nav-next',
       mouseDrag: true,
       autoplay: false,
       responsive: {
-        0: { items: 1 },
-        768: { items: 2 },
-        1024: { items: 3 }
+        0: { 
+          items: 1,
+          slideBy: 1
+        },
+        768: { 
+          items: 2,
+          slideBy: 2
+        },
+        1024: { 
+          items: 3,
+          slideBy: 3
+        }
       }
     });
     var sliderEl = document.querySelector('.my-slider');
     var colEl = sliderEl.closest('.col.col-12');
+    var dotsContainer = colEl.querySelector('.dots-container');
+    
     function moveDots() {
       var nav = colEl.querySelector('.tns-nav');
-      if (sliderEl && nav && nav.previousSibling !== sliderEl) {
-        colEl.insertBefore(nav, sliderEl.nextSibling);
+      if (sliderEl && nav && dotsContainer && !dotsContainer.contains(nav)) {
+        dotsContainer.appendChild(nav);
       }
     }
     // Move dots after DOM settles

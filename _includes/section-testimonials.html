@@ -14,7 +14,24 @@
             </div>
           {% endfor %}
         </div>
-        <!-- .tns-nav (dots) will be here -->
+        
+        <!-- Navigation area with arrows and dots -->
+        <div class="testimonials-navigation">
+          <button type="button" class="testimonial-nav-btn testimonial-nav-prev" aria-label="Témoignage précédent">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          
+          <!-- Dots will be inserted here by Tiny Slider -->
+          <div class="dots-container"></div>
+          
+          <button type="button" class="testimonial-nav-btn testimonial-nav-next" aria-label="Témoignage suivant">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </div>
