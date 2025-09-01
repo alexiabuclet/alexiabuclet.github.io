@@ -156,7 +156,7 @@ interventions:
        - "<strong>😌 Pour les prévoyant.e.s :</strong> en amont du développement pour adopter la bonne stratégie pour les utilisateurs.rices."
        - "<strong>🤠 Pour les pressé.e.s :</strong> audit et recommandations sur l'expérience de votre produit."
        - "<strong>🫠 Pour les submergé.e.s :</strong> identifier avec du recul ce qui a vraiment de la valeur pour l'expérience de votre produit."
-       - "<strong>👯 Pour du renfort :</strong> UX Design complet d'une feature ou d'un produit (analyse des besoins, benchmark, user journey, wireframes, spécifications, suivi d'implémentation…)."
+       - "<strong>👯 Pour du renfort :</strong> UX Design complet d'une feature ou d'un produit (analyse des besoins, benchmark, user journey, wireframes, prototypes Figma, spécifications, suivi d'implémentation…)."
      tools: "<strong>Outils :</strong> Figma, FigJam, Notion, Miro, Mixpanel, Gsuite, Microsoft Office et leurs équivalents." 
 
    - subtitle: "Product Management"
@@ -175,7 +175,7 @@ interventions:
       - "<strong>🔎 Audit complet :</strong> intervention plus longue avec des rencontres en groupe et/ou des entretiens individuels, évaluation des process actuels et élaboration d'un workflow personnalisé suivi d'itérations avec les équipes."
    
    - subtitle: "Bon à savoir"
-     description: "J'ai un <strong>excellent contact</strong> avec les équipes tech 🧑‍💻<br/>Je comprends bien les problèmatiques techniques pour trouver des compromis en bonne collaboration. Merci à mes anciens collègues de m'avoir fait monter en compétences sur ces sujets !<br/><br/>Je ne fais pas de Direction Artistique ou UI Design 🎨 <br/>L'esthétique d'un produit est tout aussi importante que son ergonomie. Ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne.<br/>Si vous avez également ce besoin, je connais des personnes géniales avec qui j'ai l'habitude de <strong>travailler en binôme</strong> !"
+     description: "J'ai un <strong>excellent contact</strong> avec les équipes tech 🧑‍💻<br/>Je comprends bien les problèmatiques techniques pour trouver des compromis en bonne collaboration. Merci à mes anciens collègues de m'avoir fait monter en compétences sur ces sujets !<br/><br/>Je ne fais pas de Direction Artistique ou UI Design 🎨<br/>L'esthétique d'un produit est tout aussi importante que son ergonomie. Ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne. <br/>Si vous avez également ce besoin, je connais des personnes géniales avec qui j'ai l'habitude de <strong>travailler en binôme</strong> !<br/> Cela dit, je peux utiliser un Design System existant dans mes maquettes !"
 
 #-------------------------------
 # Community section
