@@ -185,7 +185,7 @@ interventions:
 offre:
   title: "<span class=\"text-span\">Offre</span>"
   items:
-   - subtitle: "Conseil ciblé"
+   - subtitle: "Coup de pouce"
      target: "Adaptée aux petits budgets avec de l'ambition."
      description: "Des sessions de conseils d'1h (ou plus) à la demande pour repartir avec des pistes concrètes à appliquer tout de suite."
      example: "<strong>40%</strong> de mes client.es commencent par ce choix rapide, pratique et abordable."
