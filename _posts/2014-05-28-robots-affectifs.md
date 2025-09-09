@@ -5,7 +5,7 @@ image : '/images/robots-affectifs.jpg'
 image_alt: "Image du magazine Planète Robots sur les robots affectifs"
 targeturl: "https://issuu.com/planeterobots/docs/planete_robots29/52"
 description: "Table ronde publiée dans le Planète Robots n°29 de septembre - octobre 2014."
-tags: [Table Ronde]
+tags: [Table ronde]
 ---
 
 <!--- Exemple de post sans lien

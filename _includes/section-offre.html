@@ -1,0 +1,59 @@
+<!-- begin offre -->
+<section class="section offre" id="offre">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="contaniner__inner animate">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">{{ site.data.settings.offre.title }}</h2>
+            </div>
+          </div>
+
+          <div class="row offre__grid">
+            {% for item in site.data.settings.offre.items %}
+            <article class="offre__card col col-4 col-d-6 col-t-12">
+              <div class="offre__content">
+                <div class="offre__head">
+                  <h3 class="offre__title">{{ item.subtitle }}</h3>
+                  {% if item.target %}
+                    <p class="offre__target">{{ item.target }}</p>
+                  {% endif %}
+                </div>
+
+                {% if item.description %}
+                  <p class="offre__description">{{ item.description }}</p>
+                {% endif %}
+
+                {% if item.example %}
+                  <div class="offre__example">{{ item.example }}</div>
+                {% endif %}
+
+                <div class="offre__cta">
+                  {% assign contact_email = site.data.settings.contact__settings.contact__email %}
+                  {% if contact_email and contact_email != 'your@email.com' %}
+                    <a class="button button--middle" href="mailto:{{ contact_email }}?subject={{ item.subtitle | uri_escape }} — Demande d'information&body=Bonjour Alexia,%0D%0A%0D%0ANous sommes intéressés par l'offre \"{{ item.subtitle | uri_escape }}\".%0D%0A%0D%0AContexte : %0D%0AObjectifs : %0D%0ADisponibilités : %0D%0A%0D%0AMerci !">Choisir</a>
+                  {% elsif site.data.settings.linkedin %}
+                    <a class="button button--middle" href="{{ site.data.settings.linkedin }}" target="_blank" rel="noopener">Choisir</a>
+                  {% else %}
+                    <a class="button button--middle" href="/about/">Choisir</a>
+                  {% endif %}
+                </div>
+              </div>
+            </article>
+            {% endfor %}
+            <div>
+              <p class="section__description">{{ site.data.settings.offre.description }}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end offre -->
+
+
+

@@ -1,0 +1,159 @@
+/* Section Offre */
+.offre {
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 8px;
+
+  /* subtle section background tint */
+  /*background: linear-gradient(180deg, rgba($secondary-color, 0.06) 0%, rgba($secondary-color, 0) 60%);*/
+
+  .section__description {
+    /* Author resume text rules */
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-color;
+
+    @media only screen and (max-width: $desktop) {
+      font-size: 16px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+}
+
+.offre__card {
+  margin-bottom: 32px;
+}
+
+.offre__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 28px;
+  border-radius: 28px;
+  background: $background-color;
+  border: 1px solid $border-color;
+  transition: transform .25s ease, box-shadow .25s ease;
+
+  /* gradient border halo */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 28px;
+    padding: 1px;
+    background: linear-gradient(120deg, rgba($primary-color,.55), rgba($secondary-color,.55));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 40px rgba($text-color, 0.10);
+  } */
+}
+
+.offre__head {
+  margin-bottom: 12px;
+}
+
+.offre__title {
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 10px 0;
+  background: linear-gradient(90deg, $text-color 0%, rgba($text-color, .9) 60%, $primary-color 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 24px;
+    /*margin: 0 0 8px 0;*/
+  }
+}
+
+.offre__target {
+  display: inline-block;
+  margin: 10px 0 5px 0;
+  padding: 6px 10px;
+  font-size: 17px;
+  text-align: center;
+  color: $dark-green;
+  background: rgba($secondary-color, 0.18);
+  border: 1px solid rgba($secondary-color, 0.35);
+  border-radius: 16px;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 15px;
+  }
+}
+
+.offre__description {
+  margin: 10px 0 10px 0;
+  font-size: 17px;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 15px;
+    /*margin: 8px 0 8px 0;*/
+  }
+}
+
+.offre__example {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 15px;
+  color: $text-color-alt;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 13px;
+    /*padding-top: 10px;*/
+  }
+}
+
+.offre__cta {
+  margin-top: 16px;
+
+  .button {
+    width: 100%;
+  }
+}
+
+/* Featured middle card "Populaire" 
+.offre__card:nth-child(2) .offre__content {
+  background: linear-gradient(180deg, rgba($secondary-color,.06), transparent 36%) $background-color;
+
+  &::after {
+    content: "Populaire";
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .3px;
+    color: $white;
+    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 100%);
+    padding: 6px 10px;
+    border-radius: 999px;
+  }
+}*/
+
+@media only screen and (max-width: $mobile) {
+  .offre__content {
+    padding: 22px;
+    border-radius: 20px;
+
+    &::before { border-radius: 20px; }
+  }
+
+  .offre__title { font-size: 22px; }
+}
+
+

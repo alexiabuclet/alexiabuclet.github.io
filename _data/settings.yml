@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 
-title: Alexia Buclet
+title: Alexia Buclet 🐝
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Senior UX / Product Manager & DesignOps Freelance For Good
 meta_description: "UX Designer et Product Manager freelance, j’accompagne les startups à impact pour concevoir des produits et services utiles, durables et adoptés naturellement."
@@ -11,6 +11,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    # - title: 'Offre'
+    #   url: '/#offre'
     #- title: 'Experience'
     #  url: '/projects/'
     - title: 'Expériences'
@@ -176,6 +178,26 @@ interventions:
    
    - subtitle: "Bon à savoir"
      description: "J'ai un <strong>excellent contact</strong> avec les équipes tech 🧑‍💻<br/>Je comprends bien les problèmatiques techniques pour trouver des compromis en bonne coopération. Merci à mes anciens collègues de m'avoir fait monter en compétences sur ces sujets !<br/><br/>Je ne fais pas de Direction Artistique ou UI Design 🎨<br/>L'esthétique d'un produit est tout aussi importante que son ergonomie. Ces 2 expertises sont complémentaires mais quasi impossibles à maîtriser profondément par une même personne. <br/>Si vous avez également ce besoin, je connais des personnes géniales avec qui j'ai l'habitude de <strong>travailler en binôme</strong> !<br/> Cela dit, je peux utiliser un Design System existant dans mes maquettes ou intervenir sur sa stratégie !"
+
+#-------------------------------
+# Offer
+
+offre:
+  title: "<span class=\"text-span\">Offre</span>"
+  items:
+   - subtitle: "Conseil ciblé"
+     target: "Adaptée aux petits budgets avec de l'ambition."
+     description: "Des sessions de conseils d'1h (ou plus) à la demande pour repartir avec des pistes concrètes à appliquer tout de suite."
+     example: "<strong>40%</strong> de mes client.es commencent par ce choix rapide, pratique et abordable."
+   - subtitle: "Mission définie"
+     target: "Répondre à un besoin précis avec un livrable concret et actionnable."
+     description: "On identifie le besoin et sa réponse (audit, specs, recherche, ect.) adaptée à tes ressources et à ton timing."
+     example: "<strong>40%</strong> de mes client.es optent pour ce format délimité et efficace."
+   - subtitle: "Comme en interne"
+     target: "L'accompagnement complet et flexible."
+     description: "Je travaille au rythme de ton équipe (X jours / semaine) pour prioriser et avancer sur les sujets clés du projet."
+     example: "<strong>20%</strong> de mes client.es préfèrent m'intégrer en tant qu'alliée du quotidien."
+  description: "Contacte-moi pour discuter de tes enjeux  : produit / service, objectifs, cibles, roadmap, ressources, organisation...<br/>On trouvera la <strong>formule la plus adaptée</strong>, pour répondre à tes besoins à hauteur de tes ressources et renforcer tes chances de succès !"
 
 #-------------------------------
 # Community section

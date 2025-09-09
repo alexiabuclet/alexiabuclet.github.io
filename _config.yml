@@ -13,6 +13,10 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
+# Include dot-directories to serve DevTools probe without 404
+include:
+  - .well-known
+
 paginate: 6
 paginate_path: "/speaker/page/:num"
 
