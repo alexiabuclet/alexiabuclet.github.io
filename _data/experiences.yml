@@ -2,10 +2,16 @@
   company: Freelance
   description: "Plusieurs missions auprès de projets à impact environnemental et social. Parmi lesquels :"
   projects: 
+    - title: "Qera"
+      url: "https://www.qerapp.com/"
+      description: "Sessions de conseils sur l'expérience utilisateur de l'app Android et iOS."
+      client: "Qera permet de recommander le meilleur produit d'un rayon selon l'importance de 3 critères pour l'utilisateur.ice (écologie, santé et prix) à partir d'une simple photo."
+      image: /images/qera.webp
+      image_alt: Téléphone avec l'app Qera
     - title: "Peas'Up"
       url: "https://www.peasup.org/"
-      description: "UX : Audit exhaustif de l'expérience l'app."
-      client: "Peas'Up est une app mobile qui permet d'impulser aux membres d'une entreprise des démarches collectives et individuelles sur les enjeux environnementaux, de manière ludique et positive !"
+      description: "UX : Audit exhaustif de l'expérience l'app Android et iOS."
+      client: "Peas'Up permet d'impulser aux membres d'une entreprise des démarches collectives et individuelles sur les enjeux environnementaux, de manière ludique et positive !"
       image: /images/peasup.avif
       image_alt: Téléphone avec l'app Peas'Up
     - title: "Le Temps d'Asheer"
