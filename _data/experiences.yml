@@ -2,6 +2,12 @@
   company: Freelance
   description: "Plusieurs missions auprès de projets à impact environnemental et social. Parmi lesquels :"
   projects: 
+    - title: "Plus Fraîche Ma Ville (beta.gouv.fr)"
+      url: "https://plusfraichemaville.fr/"
+      description: "Product Owner pour la startup d'Etat Plus Fraîche Ma Ville (ADEME)"
+      client: "Plus Fraîche Ma Ville accompagne les collectivités dans leur projet de rafraîchissement urbain."
+      image: /images/pfmv.png
+      image_alt: Capture d'écran du site de Plus Fraîche Ma Ville
     - title: "Qera"
       url: "https://www.qerapp.com/"
       description: "Sessions de conseils sur l'expérience utilisateur de l'app Android et iOS."
