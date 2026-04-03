@@ -8,9 +8,21 @@
       client: "Plus Fraîche Ma Ville accompagne les collectivités dans leur projet de rafraîchissement urbain."
       image: /images/pfmv.png
       image_alt: Capture d'écran du site de Plus Fraîche Ma Ville
+    - title: "Sustaain"
+      url: "https://sustaain.org/"
+      description: "PM : Animation de workshops pour cadrer la stratégie produit, définir une roadmap macro et prioriser des actions micro."
+      client: "Sustaain construit une solution centrée sur la traçabilité des denrées tropicales (ex : café) et garantir leur conformité avec les normes environnementales et sociales."
+      image: /images/workshop_sustaain.jpeg
+      image_alt: Photos d'équipe Sustaain et du workshop
+    - title: "Zilo Énergie"
+      url: "https://www.zilo-energie.com/"
+      description: "UX : Sessions de conseils sur le parcours client de l'inscription."
+      client: "Zilo Énergie propose un abonnement d'autoconsommation solaire aux particuliers en installant des panneaux solaires sur les maisons individuelles."
+      image: /images/zilo_energie.avif
+      image_alt: Photos d'équipe Sustaain et du workshop
     - title: "Qera"
       url: "https://www.qerapp.com/"
-      description: "Sessions de conseils sur l'expérience utilisateur de l'app Android et iOS."
+      description: "UX : Sessions de conseils sur l'expérience utilisateur de l'app Android et iOS."
       client: "Qera permet de recommander le meilleur produit d'un rayon selon l'importance de 3 critères pour l'utilisateur.ice (écologie, santé et prix) à partir d'une simple photo."
       image: /images/qera.webp
       image_alt: Téléphone avec l'app Qera

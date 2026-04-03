@@ -7,7 +7,7 @@
 
 .logo-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
@@ -47,7 +47,8 @@
   }
 
   .logo-row {
-    gap: 0.8rem; /* réduit l’espace horizontal et vertical entre les logos */
+    column-gap: 1rem; /* espace horizontal entre logos */
+    row-gap: 1.6rem; /* espace plus grand entre les 2 lignes */
   }
 
   //.logo-container {
